@@ -1,5 +1,5 @@
-#Day 3
-#Build dan Running aplikasi NodeJS, Golang dan Python3 dan Jalankan Secara Daemon Menggunakan PM2
+# Day 3
+# Build dan Running aplikasi NodeJS, Golang dan Python3 dan Jalankan Secara Daemon Menggunakan PM2
 
 Sebelum build, kita akan lebih mengenal Apa Itu Aplikasi dulu
 
