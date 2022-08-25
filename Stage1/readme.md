@@ -3,7 +3,7 @@ Task :
 CAUTION Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan sebagai dokumentasi tugas.
 1. Instruksi
 
-Setelah mempelajari terkait konfigurasi dan instalasi linux server, maka silakan buat sebuah environment linux dengan ketentuan sebagai berikut: /home/indizzy/Downloads/1.png
+Setelah mempelajari terkait konfigurasi dan instalasi linux server, maka silakan buat sebuah environment linux dengan ketentuan sebagai berikut: img 1.png
 VMware Environment
 
 -Disk : 10 Gb
