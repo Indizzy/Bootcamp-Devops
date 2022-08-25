@@ -65,8 +65,6 @@ node index.js
 
 Sekarang coba akses web browser kalian setelah itu kalian coba akses dengan localhost:3000
 
-
-Selamat Praktek Nodejsnya Sudah Selesai
 Step 2 - Instalasi, Build dan Run Aplikasi Golang
 
 Pertama-tama sama seperti sebelumnya, Buat direktori baru untuk Golang dan kita harus mendownload engine-nya terlebih dahulu.
