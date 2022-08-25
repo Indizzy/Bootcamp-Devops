@@ -1,1 +1,164 @@
+# Task Version Control System
+# Git
 
+Git adalah suatu perangkaat lunak yang diciptakan untuk mencatat dan memanage perubahan file maupun repository salah satunya yang paling terkenal adalah github yang akan kita bahas kali ini
+
+Git Configuration
+Step 1 - Konfigurasi Git dengan Github
+
+Jika sudah menginstall git , maka selanjutnya masuk ke terminal , kemudian masukan perintah di bawah ini :
+
+git config --global user.name ".................."
+
+isi titik-titik diatas menggunakan username github
+
+git config --global user.email "................."
+
+isi titik-titik diatas dengan menggunakan email di github
+
+git config --list
+
+perintah diatas untuk mengecek apakah configurasi yang kita lakukan sudah berhasil atau blum
+
+Step 2 - Menghubungkan SSH
+
+1.SSH memungkinkan kita untuk melakukan push ke repository github tanpa login. Berbeda dengan cara yang biasa (melalui HTTPS), kita harus memasukkan username dan password setiap kali melakukan push. Tapi dengan SSH kita tidak akan melakukan itu lagi.
+
+Untuk generate nya, masukan perintah berikut :
+
+ssh-keygen
+
+SSH key Location
+
+Jika kalian sudah menjalankan perintah sebelumnya maka kalian sudah berhasil untuk men-generate SSH key yang akan kalian gunakannya. Untuk lokasi SSH key yang sudah kalian generate tadi berada di .ssh/id_rsa.pub. Jika sudah lakukan copy pada SSH-key tersebut.
+
+cat .ssh/id_rsa.pub
+
+Add new SSH to github settings
+
+Tahap selanjutnya setelah kalian melakukan copy SSH-key adalah memasukkannya kedalam config github dengan membuka https://github.com/settings/keys.
+
+Jika sudah langsung tekan saja di bagian New SSH key. Img 1
+
+Setelah itu masukkan saja SSH key yang sudah kalian copy tadi kebagian key. Jika sudah Langsung saja save dengan menge-klik bagian Add SSH key.
+
+Check Connection
+
+Jika kalian sudah melakukan semua step di atas maka kalian sudah berhasil meng-koneksikan local kalian dengan Github.
+
+Untuk make sure apakah sudah terkoneksi kita bisa menggunakan perintah di bawah ini.
+
+ssh -T git@github.com
+
+
+Jika muncul teks seperti gambar diatas. maka kalian sudah berhasil mengkoneksikan local kalian dengan Github.
+Step 3 - Membuat 3 Buah Repository Untuk apk NodeJs, Golang & python
+
+apa itu Repository? Repositori atau repo adalah direktori penyimpanan file proyek. Di sini, Anda bisa menyimpan apa pun yang berkaitan dengan proyek yang sedang Anda buat, misalnya file kode, gambar, atau audio. Repo sendiri bertempat di penyimpanan atau storage GitHub atau repositori lokal di komputer Anda
+
+Pertama kita buat Repository NodeJs Terlebih dahulu dengan membuat direktorinya terlebih dahulu kemudian inisiasi git didalamnya menggunakan perintah berikut :
+
+mkdir app-node-js
+
+cd app-node-js
+
+git init
+
+
+Setelahnya kita membuat repository pada github juga, dengan masuk ke profile github dan klik "new repository" dibagian kanan kemudian beri nama repository nya dan klik "create new repository" di bagian bawahnya
+
+
+
+Jika muncul gambar dibawah ini berarti anda berhasil membuat repository NodeJs di Github, Kemudian Copy link ssh untuk me-remote github dari lokal kita :
+
+
+
+ Sekarang kita remote dengan perintah dibawah ini dengan paste kan link ssh tadi
+
+git remote add origin https://github.com/rahmaneffendi/app-node-js.git
+
+dan masukan perintah di bawah ini untuk mengecek nya
+
+git remote -v
+
+nah, karena kita disni sudah belajar menggunakan ssh, kita akan remotenya menggunakan ssh, kita ganti yang tadinya menggunakan "https" menjadi ssh dengan perintah berikut :
+
+git remote set-url origin git@github.com:
+
+link diatas diambil dari github dengan cara klik pilihan "ssh" nya
+
+Setelah Selesai me-remote, kita akan menambahkan file, aplikasi dan lain sebagainya ke dalam github melalui git,
+
+ada 3 tahapan dalam git, yaitu : modify, staging dan commit.
+
+tahap pertama yaitu modify, kita buat file yang akan kita tambahkan, apabila ada yang tidak perlu ditambahkan ke github, kita bisa menggunakan ".gitignore" dengan cara menuliskan nama filenya dalam git.ignore
+
+
+Setelahnya Kita bisa cek Status Nya menggunakan "git status" apakah semuanya berjalan sesuai rencana :
+
+Setelah Modify semua file, kita masuk ke tahap staging,
+
+sekarang kita add semua file yang ada dengan perintah
+
+git add .
+
+setelah nya kita cek statusnya
+
+Kemudian untuk tahapan selanjutnya yaitu commit atau production, kita akan menggunakan perintah berikut :
+
+git commit -m "................"
+
+titik-titik diatas diisi dengan pesan apa yang akan kita isi
+
+git status
+
+sebelum melakukan push, perintah diatas berfungsi juga untuk mengetahui pada branch apa kita berada
+
+git push origin master
+
+karena kita berada di branch master, kita push ke branch itu :
+
+nah, dari gambar tersebut, dapat disimpulkan bahwa kita berhasil melakukan push
+
+Kemudian kita cek github kita pakah benar sudah ter-push
+
+dan dari gambar tersebut itu berarti kita berhasil melakukan push
+
+Tahap Selanjutnya, kita akan membuat 3 buah branch baru, yaitu : Development, Staging, dan Production
+
+Untuk Membuat Branch, Kita gunakan perintah :
+
+git branch development
+
+git branch staging
+
+git branch production
+
+dan perintah berikut untuk mengecek branch yang tersedia :
+
+git branch -a
+
+Setelahnya, Kita akan push ke semua branch,
+
+kita bisa berpindah branch dengan perintah
+
+git checkout (name branch)
+
+Pertama Development
+
+
+Ke-2 Staging
+
+ke-3 Production
+
+ Setelah selesai membuat branch dan push ke semua branch, sekarang kita akan cek di github kita apakah sudah berjalan sesuai rencana
+
+dari gambar diatas, sudah terbukti bahwan branch nya sudah ada semua.
+
+
+dari 3 gambar diatas, sudah terbukti bahwa di masing-masing branch, sudah ter-push juga semua filenya.
+Tugas NodeJs Sudah selesai, Sekarang kita akan melakukan hal yang sama untuk aplikasi Golang dan Python.
+
+Berikut hasil untuk aplikasi Python
+
+Berikut hasil Untuk aplikasi Golang
