@@ -1,4 +1,6 @@
-Requirements
+# Day 1
+# installasi ubuntu server
+# Requirements
 
 Sebelum melakukan instalasi ubuntu server, hal pertama yang harus kita lakukan adalah menginstall tools virtual machine serta meng-unduh file ISO server terlebih dahulu.Pada materi kali ini, kita akan menggunakan tools VMware Workstation Player.
 
