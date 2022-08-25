@@ -16,7 +16,7 @@ Untuk mengecek IP yang sudah kita ubah tadi kita akan coba dengan remote server.
 ```
 ssh dizzy@192.168.100.6 
 ```
-Untuk  kalian ganti dengan username Ubuntu Server kalian sendiri, jika ssh berhasil maka akan muncul seperti gambar berikut:
+Untuk username dan ip silakan kalian ganti dengan username Ubuntu Server kalian sendiri, jika ssh berhasil maka akan muncul seperti gambar berikut:
 
 Selanjutnya tahapan pertama yang harus kita lakukan pada saat sedang berada di dalam server yaitu melakukan update serta upgrade terlebih dahulu gunanya untuk menjaga agar system kita tetap up-to-date.
 
