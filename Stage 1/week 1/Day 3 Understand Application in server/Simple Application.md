@@ -99,7 +99,7 @@ Sekarang kita akan membuat aplikasi sederhana menggunakan go. Kalian dapat menja
 Buat sebuah file dengan nama index.go.
 
 Setelah itu masukkan script dibawah ini di dalam file index.go
-
+```
 package main
 
 import "fmt"
@@ -107,7 +107,7 @@ import "fmt"
 func main() {
     fmt.Println("Hello World!")
 }
-
+```
 Sekarang jalankan aplikasi go dengan menggunakan perintah berikut.
 
 go run index.go
@@ -116,12 +116,10 @@ Jika aplikasi kalian ingin di build, maka jalankan perintah berikut ini.
 
 go build index.go
 
-
 Jika sudah jalankan aplikasi dengan menggunakan perintah berikut.
 
 ./index
 
-Selamat, Praktek Golang Sudah Selesai
 Step 3 - Instalasi, Build dan Run Aplikasi Python3
 
 Aplikasi python telah di install secara default pada Ubuntu, maka kita tidak perlu mendownload nya lagi, untuk mengecek apakah python3 sudah ada gunakan perintah berikut:
@@ -143,7 +141,7 @@ Kalian buat terlebih dahulu file dengan nama index.py. Lalu masukan script dibaw
 nano index.py
 
 didalamnya masukan script ini
-
+```
 from flask import Flask
 app = Flask(__name__)
 @app.route("/")
@@ -151,7 +149,7 @@ def helloworld():
     return "Hello World"
 if __name__ == "__main__":
     app.run(host="0.0.0.0") 
-
+```
 Jika sudah sekarang jalankan aplikasi dengan menggunakan perintah berikut ini.
 
 python3 index.py
@@ -182,8 +180,6 @@ Dan aplikasi Python3 kita berhasil dijalankan di PM2 secara daemon seperti gamba
 Sekarang kita akan masuk ke aplikasi Golang kita dan menjalankannya secara daemon dengan perintah berikut:
 
 pm2 start index.go
-
-
 
 Sekarang kita akan mengecek status keseluruhan dengan perintah berikut apakah berjalan dengan baik atau tidak
 
