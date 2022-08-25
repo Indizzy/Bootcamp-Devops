@@ -6,7 +6,7 @@ Silahkan klik link dibawah untuk meng-unduh tools yang diperlukan.
 
 VMware Installation : https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
 
-Ubuntu Server 20.04 : https://ubuntu.com/download/server Img 1 klik 1 dulu kemudian 2
+Ubuntu Server 20.04 : https://ubuntu.com/download/server 
 
 ket : Di sini kita menggunakan Versi 20.04
 Installation Ubuntu Server
