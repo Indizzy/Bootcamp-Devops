@@ -7,6 +7,7 @@ Sebelum melakukan instalasi ubuntu server, hal pertama yang harus kita lakukan a
 Silahkan klik link dibawah untuk meng-unduh tools yang diperlukan.
 
 VMware Installation : https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
+![IMG 1](/home/indizzy/day 1/Screenshot from 2022-08-26 07-30-13.png)
 
 Ubuntu Server 20.04 : https://ubuntu.com/download/server 
 
