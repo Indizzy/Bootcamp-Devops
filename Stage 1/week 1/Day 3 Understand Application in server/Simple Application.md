@@ -42,7 +42,7 @@ Selanjutnya kita akan menginstall Express JS. Express JS adalah framework dari N
 npm install express --save
 
 Jika sudah buat file dengan nama index.js, lalu masukan script dibawah ini
-
+```
 nano index.js
 
 const express = require("express");
@@ -56,7 +56,7 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
-
+```
 
 Jika sudah sekarang kita akan coba untuk menjalankan aplikasi sederhana yang sudah kita buat. Untuk menjalankan dapat menggunakan perintah berikut ini.
 
