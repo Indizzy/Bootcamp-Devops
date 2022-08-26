@@ -71,11 +71,11 @@ Keterangan:
 -Name servers : Dibagian Name servers ini kalian cukup memasukkan IP DNS dari google supaya dapat terhubung dengan browser. 
 
 16.Jika konfigurasi sudah selesai maka akan ada perubahan di bagian DHCPv4 tadi menjadi static.
-![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-24-48.png)
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-31-08.png)
 
 
 17.Pada tahap selanjutnya kalian bisa skip dengan klik Done. 
-![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-25-06.png)
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-31-21.png)
 
 
 18.Pada tahap selanjutnya kalian bisa skip lagi dengan klik Done. 
