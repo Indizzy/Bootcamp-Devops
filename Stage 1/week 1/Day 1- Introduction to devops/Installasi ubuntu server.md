@@ -37,7 +37,7 @@ Keterangan :
 Store Disk as a single file maksudnya adalah disk yang kalian buat itu nantinya akan langsung terbuat 10Gb. (ini tidak disarankan untuk pengguna yang memiliki hardisk yang berkapasitas kecil).
 
 Split virtual disk into multiple files maksudnya adalah disk yang kita pakai untuk virtual machine kita nantinya itu akan dibagi menjadi beberapa bagian. Jadi walaupun kita menggunakan disk berkapasitas 10Gb itu nanti tidak akan terpakai seluruhnya. 
-di sini saya menggunakan 30 G
+di sini saya menggunakan 30 Gb
 
 6.Klik Finish
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-20-18.png)
@@ -46,17 +46,15 @@ di sini saya menggunakan 30 G
 7.Kemudian tunggu sampai installasi berhasil
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-20-57.png)
  
- 
-10.Setelah nanti kalian akan di kembalikan ke halamannya sebelumnya, setelah itu tekan saja di bagian Finish.
-
-
-11.Jika sudah nantinya kalian akan langsung di arahkan ke bagian installasi, disini kalian tunggu saja sampai prosesnya selesai. 
-
 12.Jika sudah kalian akan muncul tampilan seperti gambar dibawah ini. Setelah itu pilih bahasa yang ingin digunakan English. 
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-23-51.png)
+
 13.Proses ini bisa langsung kalian skip dengan klik continue without updating lalu skip juga dengan Done. 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-24-05.png)
 
 15.Pilih di bagian ens33, setelah itu pada bagia IPv4 Method ubah dari yang awalnya automatic menjadi manual. Setelah itu masukan detail IP pada form yang tersedia(kalian bisa masukkan saja IP yang sudah tertera di bagian DHCPv4). Jika sudah langsung tekan saja Save.
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-24-39.png)
 
 Keterangan:
 
@@ -69,8 +67,12 @@ Keterangan:
 -Name servers : Dibagian Name servers ini kalian cukup memasukkan IP DNS dari google supaya dapat terhubung dengan browser. 
 
 16.Jika konfigurasi sudah selesai maka akan ada perubahan di bagian DHCPv4 tadi menjadi static.
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-24-48.png)
+
 
 17.Pada tahap selanjutnya kalian bisa skip dengan klik Done. 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-25-06.png)
+
 
 18.Pada tahap selanjutnya kalian bisa skip lagi dengan klik Done. 
 
