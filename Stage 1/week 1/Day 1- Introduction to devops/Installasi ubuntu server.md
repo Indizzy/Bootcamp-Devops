@@ -32,6 +32,7 @@ Installation Ubuntu Server
 
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-19-11.png)
 
+
 Keterangan :
 
 Store Disk as a single file maksudnya adalah disk yang kalian buat itu nantinya akan langsung terbuat 10Gb. (ini tidak disarankan untuk pengguna yang memiliki hardisk yang berkapasitas kecil).
@@ -59,6 +60,7 @@ di sini saya menggunakan 30 Gb
 11.Pilih di bagian ens33, setelah itu pada bagia IPv4 Method ubah dari yang awalnya automatic menjadi manual. Setelah itu masukan detail IP pada form yang tersedia(kalian bisa masukkan saja IP yang sudah tertera di bagian DHCPv4). Jika sudah langsung tekan saja Save.
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-25-06.png)
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-30-54.png)
 
 Keterangan:
 
@@ -70,19 +72,19 @@ Keterangan:
 
 -Name servers : Dibagian Name servers ini kalian cukup memasukkan IP DNS dari google supaya dapat terhubung dengan browser. 
 
-16.Jika konfigurasi sudah selesai maka akan ada perubahan di bagian DHCPv4 tadi menjadi static.
+12.Jika konfigurasi sudah selesai maka akan ada perubahan di bagian DHCPv4 tadi menjadi static.
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-31-08.png)
 
 
-17.Pada tahap selanjutnya kalian bisa skip dengan klik Done. 
+13.Pada tahap selanjutnya kalian bisa skip dengan klik Done. 
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-31-21.png)
 
 
-18.Pada tahap selanjutnya kalian bisa skip lagi dengan klik Done. 
+14.Pada tahap selanjutnya kalian bisa skip lagi dengan klik Done. 
 
-19.Disini kita dapat memilih bagian Custom storage layout. Kenapa kita memilih Custom storage layout karena kita akan membuat 2 buah partisi, jika sudah kalian pilih setelah itu langsung saja klik Done. 
+15.Disini kita dapat memilih bagian Custom storage layout. Kenapa kita memilih Custom storage layout karena kita akan membuat 2 buah partisi, jika sudah kalian pilih setelah itu langsung saja klik Done. 
 
-20.Selanjutnya disini kita akan membuat 2 buah partisi untuk root dan swap. Langsung pilih saja di bagian /dev/sda lalu pilih di bagian Add GPT Partition. Untuk kapasitasnya kalian bisa samakan saja dengan gambar dibawah (kecuali untuk swap, kalian bisa setting semau kalian apabila merasa kurang).
+16.Selanjutnya disini kita akan membuat 2 buah partisi untuk root dan swap. Langsung pilih saja di bagian /dev/sda lalu pilih di bagian Add GPT Partition. Untuk kapasitasnya kalian bisa samakan saja dengan gambar dibawah (kecuali untuk swap, kalian bisa setting semau kalian apabila merasa kurang).
 
 Keterangan :
 
