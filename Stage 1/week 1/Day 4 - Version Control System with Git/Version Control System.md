@@ -96,20 +96,33 @@ dan masukan perintah di bawah ini untuk mengecek nya
 
 git remote -v
 
-nah, karena kita disni sudah belajar menggunakan ssh, kita akan remotenya menggunakan ssh, kita ganti yang tadinya menggunakan "https" menjadi ssh dengan perintah berikut :
+kemudian kita lakukan remote pada github kita
 
 git remote set-url origin git@github.com:
+
+![IMG](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2023-28-08.png)
 
 link diatas diambil dari github dengan cara klik pilihan "ssh" nya
 
 Setelah Selesai me-remote, kita akan menambahkan file, aplikasi dan lain sebagainya ke dalam github melalui git,
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2023-34-53.png))
+
 ada 3 tahapan dalam git, yaitu : modify, staging dan commit.
 
 tahap pertama yaitu modify, kita buat file yang akan kita tambahkan, apabila ada yang tidak perlu ditambahkan ke github, kita bisa menggunakan ".gitignore" dengan cara menuliskan nama filenya dalam git.ignore
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2023-49-17.png)
+
+
+file yang coba kita abaikan
+
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2023-46-18.png)
 
 Setelahnya Kita bisa cek Status Nya menggunakan "git status" apakah semuanya berjalan sesuai rencana :
+
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2023-47-06.png)
+
 
 Setelah Modify semua file, kita masuk ke tahap staging,
 
@@ -149,11 +162,18 @@ git branch staging
 
 git branch production
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-26%2000-04-37.png)
+
+
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-26%2000-08-45.png)
+
 dan perintah berikut untuk mengecek branch yang tersedia :
 
 git branch -a
 
-Setelahnya, Kita akan push ke semua branch,
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-26%2000-05-22.png)
+
+Setelahnya, Kita akan push ke semua branch
 
 kita bisa berpindah branch dengan perintah
 
@@ -164,16 +184,27 @@ Pertama Development
 
 Ke-2 Staging
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-26%2000-09-58.png)
+
+
 ke-3 Production
 
- Setelah selesai membuat branch dan push ke semua branch, sekarang kita akan cek di github kita apakah sudah berjalan sesuai rencana
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-26%2000-08-05.png)
+
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-26%2000-09-53.png)
 
 dari gambar diatas, sudah terbukti bahwan branch nya sudah ada semua.
 
 
 dari 3 gambar diatas, sudah terbukti bahwa di masing-masing branch, sudah ter-push juga semua filenya.
+
+
 Tugas NodeJs Sudah selesai, Sekarang kita akan melakukan hal yang sama untuk aplikasi Golang dan Python.
 
 Berikut hasil untuk aplikasi Python
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-26%2000-46-12.png)
+
 Berikut hasil Untuk aplikasi Golang
+
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-26%2000-38-47.png)
