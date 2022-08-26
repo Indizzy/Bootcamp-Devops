@@ -84,6 +84,8 @@ Setelahnya kita membuat repository pada github juga, dengan masuk ke profile git
 
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-57-58.png)
 
+![IMG 1]()
+
  Sekarang kita remote dengan perintah dibawah ini dengan paste kan link ssh tadi
 
 git remote add origin https://github.com/indizzy/nodejss.git
