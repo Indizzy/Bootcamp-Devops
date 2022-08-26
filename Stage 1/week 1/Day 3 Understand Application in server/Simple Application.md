@@ -21,10 +21,6 @@ keterangan : Jika nvm belum terdeteksi gunakan perintah di atas ini
 
 nvm install 16
 
-keterangan : perintah di atas berguna untuk menginstall node.js dengan versi 16. Jika kalian ingin menggunakan node.js dengan version 14, maka Jalankan perintah nvm install 14.
-
-nvm use 16  
-
 keterangan : Untuk menggunakan node.js dengan versi 16
 
 Jika tahapan di atas sudah kalian lakukan, maka kalian sudah berhasil untuk melakukan instalasi node.js. Untuk melakukan pengecekan kalian bisa menggunakan perintah di bawah ini.
