@@ -138,5 +138,7 @@ Selanjutnya kalian akan di arahkan ke aplikasinya
 
 
 tampilan pada browser hand phone
+
+
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%202/Screenshot_20220825-030904_Chrome.jpg)
 
