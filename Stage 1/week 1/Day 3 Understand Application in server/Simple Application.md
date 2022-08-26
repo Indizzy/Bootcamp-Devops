@@ -249,7 +249,11 @@ Untuk Aplikasi python disini menggunakan port 5000 dengan perintah:
 
 lt --port 5000
 
+![IMG](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/image%203/Screenshot%20from%202022-08-25%2020-09-08.png)
+
+
 Untuk Aplikasi NodeJS disini menggunakan port 3000 dengan perintah:
 
 lt --port 3000
 
+![IMG](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/image%203/Screenshot%20from%202022-08-25%2020-12-21.png)
