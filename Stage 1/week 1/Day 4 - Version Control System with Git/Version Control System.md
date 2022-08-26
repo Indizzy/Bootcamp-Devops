@@ -5,6 +5,8 @@ Git adalah suatu perangkaat lunak yang diciptakan untuk mencatat dan memanage pe
 
 Git Configuration
 Step 1 - Konfigurasi Git dengan Github
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-20-13.png)
+
 
 Jika sudah menginstall git , maka selanjutnya masuk ke terminal , kemudian masukan perintah di bawah ini :
 
@@ -18,6 +20,8 @@ isi titik-titik diatas dengan menggunakan email di github
 
 git config --list
 
+![IMG](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-24-40.png)
+
 perintah diatas untuk mengecek apakah configurasi yang kita lakukan sudah berhasil atau blum
 
 Step 2 - Menghubungkan SSH
@@ -28,11 +32,15 @@ Untuk generate nya, masukan perintah berikut :
 
 ssh-keygen
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-26-36.png)
+
 SSH key Location
 
 Jika kalian sudah menjalankan perintah sebelumnya maka kalian sudah berhasil untuk men-generate SSH key yang akan kalian gunakannya. Untuk lokasi SSH key yang sudah kalian generate tadi berada di .ssh/id_rsa.pub. Jika sudah lakukan copy pada SSH-key tersebut.
 
 cat .ssh/id_rsa.pub
+
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-33-35.png)
 
 Add new SSH to github settings
 
@@ -42,40 +50,45 @@ Jika sudah langsung tekan saja di bagian New SSH key.
 
 Setelah itu masukkan saja SSH key yang sudah kalian copy tadi kebagian key. Jika sudah Langsung saja save dengan menge-klik bagian Add SSH key.
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-29-49.png)
+
 Check Connection
 
 Jika kalian sudah melakukan semua step di atas maka kalian sudah berhasil meng-koneksikan local kalian dengan Github.
 
-Untuk make sure apakah sudah terkoneksi kita bisa menggunakan perintah di bawah ini.
+Untuk memastikan apakah sudah terkoneksi kita bisa menggunakan perintah di bawah ini.
 
 ssh -T git@github.com
 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-36-59.png)
 
 Jika muncul teks seperti gambar diatas. maka kalian sudah berhasil mengkoneksikan local kalian dengan Github.
+
+
 Step 3 - Membuat 3 Buah Repository Untuk apk NodeJs, Golang & python
 
 apa itu Repository? Repositori atau repo adalah direktori penyimpanan file proyek. Di sini, Anda bisa menyimpan apa pun yang berkaitan dengan proyek yang sedang Anda buat, misalnya file kode, gambar, atau audio. Repo sendiri bertempat di penyimpanan atau storage GitHub atau repositori lokal di komputer Anda
 
 Pertama kita buat Repository NodeJs Terlebih dahulu dengan membuat direktorinya terlebih dahulu kemudian inisiasi git didalamnya menggunakan perintah berikut :
 
-mkdir app-node-js
+mkdir nodejs
 
-cd app-node-js
+cd nodejs
 
 git init
+
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-57-06.png)
 
 
 Setelahnya kita membuat repository pada github juga, dengan masuk ke profile github dan klik "new repository" dibagian kanan kemudian beri nama repository nya dan klik "create new repository" di bagian bawahnya
 
-
-
-Jika muncul gambar dibawah ini berarti anda berhasil membuat repository NodeJs di Github, Kemudian Copy link ssh untuk me-remote github dari lokal kita :
-
-
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-57-58.png)
 
  Sekarang kita remote dengan perintah dibawah ini dengan paste kan link ssh tadi
 
-git remote add origin https://github.com/rahmaneffendi/app-node-js.git
+git remote add origin https://github.com/indizzy/nodejss.git
+
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%204/Screenshot%20from%202022-08-25%2022-59-29.png)
 
 dan masukan perintah di bawah ini untuk mengecek nya
 
