@@ -37,10 +37,14 @@ Keterangan :
 Store Disk as a single file maksudnya adalah disk yang kalian buat itu nantinya akan langsung terbuat 10Gb. (ini tidak disarankan untuk pengguna yang memiliki hardisk yang berkapasitas kecil).
 
 Split virtual disk into multiple files maksudnya adalah disk yang kita pakai untuk virtual machine kita nantinya itu akan dibagi menjadi beberapa bagian. Jadi walaupun kita menggunakan disk berkapasitas 10Gb itu nanti tidak akan terpakai seluruhnya. 
+di sini saya menggunakan 30 GB
 
 6.Sekarang kita akan meng-customisasi hardware untuk server kita, tekan saja di bagian Customize Hardware. 
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-20-18.png)
+
 
 7.Disini ada beberapa pilihan untuk kita melakukan customisasi seperti Memory, Processors dan Network adapter.
+![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-20-57.png)
 
 Keterangan:
 
