@@ -76,19 +76,24 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 exec bash
 ```
+Perintah Exec di sini berfungsi agar kita bisa mengeksekusi file bash tersebut
 
 ```
 nvm install 16
 ```
+nvm install berfungsi agar kita bisa menginstall node version manager sedangkan 16 di sini adalah versi dari node version manager tersebut
 
 ```
 node -v
 ```
+node -v berfungsi untuk melihat versi node manager kita
 
 ```
 npm -v
 
 ```
+npm - v berfungsi untuk melihat versi npm kita
+
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images%202/Screenshot%20from%202022-08-25%2002-48-19.png)
 
 Selanjutnya kita akan melakukan instalasi localtunnel menggunakan npm yang sudah kita install.
