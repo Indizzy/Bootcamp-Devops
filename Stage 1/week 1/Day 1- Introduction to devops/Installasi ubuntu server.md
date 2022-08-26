@@ -28,7 +28,7 @@ Installation Ubuntu Server
 4.Tahapan selanjutnya adalah menentukan lokasi dimana Virtual machine kalian ingin disimpan.
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-18-35.png)
 
-5.Setelah atur size disk yang ingin kalian gunakan. Disini sebagai contoh saya menggunakan 10GB. Disini ada 2 pilihan yaitu Store Disk as a single file dan Split virtual disk into multiple files. 
+5.Setelah atur size disk yang ingin kalian gunakan. Disini sebagai contoh saya menggunakan 30Gb. Disini ada 2 pilihan yaitu Store Disk as a single file dan Split virtual disk into multiple files. 
 
 ![IMG 1](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-08-24%2008-19-11.png)
 
