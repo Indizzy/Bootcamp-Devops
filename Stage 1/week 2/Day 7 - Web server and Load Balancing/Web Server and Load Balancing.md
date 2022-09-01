@@ -174,14 +174,17 @@ jika sudah coba buka browser untuk akses domain kalian
 
 di sini terdapat tanda 502 bad getaway karena aplikasi kita belum berjalan, sekarang kita coba jalankan aplikasi yang pernah kita pakai sebelumnya ikuti langkah-langkah berikut pertama kita clone aplikasinya
 
+```git clone https://github.com/dumbwaysdev/wayshub-frontend.git```
 
+
+![image](https://user-images.githubusercontent.com/18206510/187985912-3b09971b-0e6c-4053-85fb-42e857a57b9f.png)
 
 
 masuk ke direktori aplikasi tersebut lalu install npm untuk menjalankan module dari node.js dengan perintah
 
-```sudo apt install npm```
+```npm install```
 
-![image](https://user-images.githubusercontent.com/18206510/187951339-96edc009-297e-4a58-947d-c9b41d4656f5.png)
+![image](https://user-images.githubusercontent.com/18206510/187986739-2b96b7a2-f677-45a4-bd9d-1c347962b99e.png)
 
 
 lalu tunggu hingga prosesnya selesai kemudian start npm dengan perintah
@@ -189,16 +192,6 @@ lalu tunggu hingga prosesnya selesai kemudian start npm dengan perintah
 ```npm start```
 
 
-![image](https://user-images.githubusercontent.com/18206510/187975247-fb1db6b0-fbd8-40ac-8f2e-62e5be78f50a.png)
-
-
-![image](https://user-images.githubusercontent.com/18206510/187952916-a4bad326-4d7c-4e1d-b83d-5907d2312234.png)
-
-
-
-selanjutnya coba refresh browser kita
-
- ,
 
 
 
