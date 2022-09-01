@@ -15,15 +15,16 @@ jadi computer kita sebagai client akan melakukan request data yang berada pada s
 
 # 1.4 Fungsi Web Server
 
-    Menyediakan data berdasarkan request atau permintaan yang masuk agar dapat menjamin keamanan sistem yang berjalan dengan lancar.
-    Melakukan pemeriksaan terhadap sistem security yang berasal dari permintaan HTTP berdasarkan request client atau web browser.
+Menyediakan data berdasarkan request atau permintaan yang masuk agar dapat menjamin keamanan sistem yang berjalan dengan lancar.
+
+Melakukan pemeriksaan terhadap sistem security yang berasal dari permintaan HTTP berdasarkan request client atau web browser.
 
 # 1.5 Jenis-Jenis Web Server
 
-    Nginx
-    Apache
-    Lightpd
-    Lightspeed
+ Nginx
+ Apache
+ Lightpd
+ Lightspeed
 
 # 1.6 Instalasi Nginx dan Service Management
 
@@ -38,7 +39,7 @@ kemudian kita install nginx-nya dengan perintah
 
 jika keluar notifikasi 'Do you want to continue?' maka ketik saja Y lalu tunggu hingga prosesnya selesai
 
-![image](https://user-images.githubusercontent.com/18206510/187914370-61561371-4943-4063-af7e-0af4037fbff4.png)
+![image](https://user-images.githubusercontent.com/18206510/187914706-45b6ebf4-a80c-4aea-8de8-8b9a122ff88d.png)
 
 
 
