@@ -88,7 +88,7 @@ Berikut adalah konfigurasi dari revese proxy.
 server { 
     server_name domain.com; 
     
-    location / { 
+   location / { 
              proxy_pass http://127.0.0.1:3000;
     }
 }
@@ -110,19 +110,21 @@ Pertama-tama masuk ke folder nginx setelah itu buat suatu directory baru telebih
 
 lalu buat direktori baru terserah kalian
 
-![image](https://user-images.githubusercontent.com/18206510/187942684-74e55e30-1be8-402a-92eb-fc352d2d7ba8.png)
+
+![image](https://user-images.githubusercontent.com/18206510/187965820-a5e82d28-27fd-4f8c-9aab-a52b3b0eb35a.png)
+
 
 
 kemudian ,masuk pada direktori tersebut lalu buat file dengan ekstensi .conf 
 
 
-![image](https://user-images.githubusercontent.com/18206510/187943173-1102f66e-e9de-4ec5-a2b7-5a7f33f45e99.png)
+![image](https://user-images.githubusercontent.com/18206510/187966097-8892e85a-d62b-438b-b7aa-77326925f11b.png)
 
 
 lalu masukan konfigurasi reverse proxy di dalam file tersebut
 
 
-![image](https://user-images.githubusercontent.com/18206510/187953964-2f1aa364-9ec1-43a3-9eb2-628fe2bf38d1.png)
+![image](https://user-images.githubusercontent.com/18206510/187966925-42ff2e58-f471-45a7-9ee8-d560b408460f.png)
 
 
 pastikan port sesuai dengan yang digunakan oleh aplikasi
@@ -130,12 +132,12 @@ pastikan port sesuai dengan yang digunakan oleh aplikasi
 
 lalu keluar dari direktori tersebut dan masuk ke file nginx.conf
 
-![image](https://user-images.githubusercontent.com/18206510/187944710-33d022d5-e861-42fd-b691-32284b3bfccf.png)
+![image](https://user-images.githubusercontent.com/18206510/187967115-2d570f4d-afad-45bb-983d-216932217b54.png)
 
 
 selanjutnya scroll ke bawah, di bagian include masukan lokasi dari direktori yang berisi konfigurasi tadi
 
-![image](https://user-images.githubusercontent.com/18206510/187945106-01c7024c-fd35-4819-a4db-634b290870c2.png)
+![image](https://user-images.githubusercontent.com/18206510/187967420-c28ed0ce-d53d-465a-96db-98f6c3a8fc77.png)
 
 tanda bintang di sini menandakan bahwa nginx akan membaca semua yg ada pada direktori tersebut
 
@@ -143,13 +145,13 @@ jika sudah maka pastikan konfigurasi tadi sudah benar dengan perintah
 
 ```sudo nginx -t```
 
-![image](https://user-images.githubusercontent.com/18206510/187945630-82779272-439c-45b8-9b05-5887d1245d41.png)
+![image](https://user-images.githubusercontent.com/18206510/187967519-5cc216eb-5413-4e20-bb05-445f5f9f426b.png)
 
 lalu kemudian kita tinggal melakukan restart/reload pada nginx kita dengan perintah 
 
 ```sudo systemctl restart nginx```
 
-![image](https://user-images.githubusercontent.com/18206510/187946148-5896768e-6a4c-491a-b09c-fc0e2196d890.png)
+![image](https://user-images.githubusercontent.com/18206510/187967688-1ff8cfa5-2bca-4fc1-b573-6bbb5a13bde9.png)
 
 
 selanjutnya kita akan membuat virtual host di local server kita, untuk membuat virtual host kita harus masuk ke file /etc/hosts dengan perintah 
@@ -157,14 +159,14 @@ selanjutnya kita akan membuat virtual host di local server kita, untuk membuat v
 
 ```sudo nano /etc/hosts```
 
-selanjutnya masukan ip server kita dan nama domain yang kita inginkan
+selanjutnya masukan ip server kita dan nama domain yang kita buat
 
-![image](https://user-images.githubusercontent.com/18206510/187947065-c781fbc3-d7b6-4a93-9df8-7ab86d0d8658.png)
+![image](https://user-images.githubusercontent.com/18206510/187968601-7229fd0a-9753-4795-96cb-15dc711718ca.png)
 
 
 jika sudah coba buka browser untuk akses domain kalian
 
-![image](https://user-images.githubusercontent.com/18206510/187947591-0424064c-8454-4fd1-8781-05e54538f5ee.png)
+![image](https://user-images.githubusercontent.com/18206510/187969334-a915cd62-f437-4e33-9193-4f1cbda52b35.png)
 
 di sini terdapat tanda 502 bad getaway karena aplikasi kita belum berjalan, sekarang kita coba jalankan aplikasi yang pernah kita pakai sebelumnya
 
