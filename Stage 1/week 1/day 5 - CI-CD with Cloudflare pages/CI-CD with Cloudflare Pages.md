@@ -56,7 +56,19 @@ selanjutnya mari kita coba membuka url yang diberikan untuk memastikan apakah pr
 
 nah jika sudah berhasil maka akan muncul tampilan dari project yg kita buat tadi
 
-Lalu di step kali ini kita akan mencoba untuk mengubah title pada project yang kita buat tadi
+Lalu di step kali ini kita akan mencoba untuk mengubah title pada project yang kita buat tadi, masuk ke repositorynya kemudian masuk ke 'public/index.html'
+kemudian di bagian 'title' kita ganti dengan nama yg kita inginkan, di sini saya akan mengganti wayshub dengan wayshub Indistiawan
+
+![image](https://user-images.githubusercontent.com/18206510/187831230-98e1716b-bf37-4390-bab4-b33313c32d8c.png)
+
+lalu pada pages cloudflare kita bisa lihat adanya aktifitas tambahan pada deployment 
+
+![image](https://user-images.githubusercontent.com/18206510/187831572-8f68643d-ae4e-4b64-8f8b-884c2957d51e.png)
+
+kemudian mari kita coba refresh pages project kita tadi untuk memastikan titlenya sudah berubah
+
+![image](https://github.com/Indizzy/Bootcamp-Devops/blob/main/Stage%201/week%201/images/Screenshot%20from%202022-09-01%2012-31-16.png)
+
 
 
 
