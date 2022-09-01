@@ -59,10 +59,11 @@ kita bisa masukan perintah sudo nano (kemudian nama file yg kita inginkan)
 
 setelah masuk pada nano editor kita masukan script berikut 
 
-``` sudo apt update 
+```
+sudo apt update 
 echo "Terupdate"
 
-    sudo apt upgrade
+sudo apt upgrade
 echo "Terupgrade"
 
 ```
