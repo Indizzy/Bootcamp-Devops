@@ -22,4 +22,10 @@ jika sudah lalu masuk ke menu pages untuk membuat project baru tapi sebelum bisa
 klik connct to git kemudian pilih connect to github agar repository kita di github terdeteksi oleh cloudflare
 ![image](https://user-images.githubusercontent.com/18206510/187820301-4b9b04e8-b396-45fc-adeb-869f91d99879.png)
 
+sebelum menentukan repository yang akan kita gunakan di sini kita akan melakukan fork terhadap repository yang akan kita gunakan 
+di sini saya menggunakan repository dari https://github.com/dumbwaysdev/wayshub-frontend
+
+klik create new fork
+![image](https://user-images.githubusercontent.com/18206510/187824497-8c15239a-0640-4e7b-926c-5a5e8bdc775a.png)
+
 
