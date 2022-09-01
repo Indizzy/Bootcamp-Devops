@@ -53,6 +53,38 @@ kemudian untuk bisa melihat status nginx bisa menggunakan perintah
 
 ![image](https://user-images.githubusercontent.com/18206510/187916440-3dd75535-9845-4900-b5d0-d391df5e1bf9.png)
 
+untuk mengaktifkan nginx bisa kita gunakan perintah 
+
+```sudo systemctl enable nginx```
+
+![image](https://user-images.githubusercontent.com/18206510/187916803-388dcb33-4a68-4012-9223-858be3381d79.png)
+
+sedangkan untuk mematikan sistem dari nginx kita bisa gunakan perintah 
+
+```sudo systemctl disable nginx```
+
+![image](https://user-images.githubusercontent.com/18206510/187917520-5bed80e8-a01a-440c-8427-3dda0c2886f0.png)
+
+jika ingin menghentikan sistem dari nginx kita bisa menggunakan perintah
+
+```sudo systemctl stop nginx```
+
+kemudian status nginx akan berubah menjadi inactive
+
+![image](https://user-images.githubusercontent.com/18206510/187918154-50e9c58b-b297-4e2a-94a8-c56b788704ec.png)
+
+untuk melihat nginx telah terinstall kita juga bisa mengakses ip dari server kita maka akan terlihat seperti berikut
+
+![image](https://user-images.githubusercontent.com/18206510/187919014-321e7528-4a3f-4606-91fa-2da4e75b2f5e.png)
+
+
+
+
+
+
+
+
+
 
 
 
