@@ -162,6 +162,12 @@ selanjutnya masukan ip server kita dan nama domain yang kita inginkan
 ![image](https://user-images.githubusercontent.com/18206510/187947065-c781fbc3-d7b6-4a93-9df8-7ab86d0d8658.png)
 
 
+jika sudah coba buka browser untuk akses domain kalian
+
+![image](https://user-images.githubusercontent.com/18206510/187947591-0424064c-8454-4fd1-8781-05e54538f5ee.png)
+
+di sini terdapat tanda 502 bad getaway karena aplikasi kita belum berjalan, sekarang kita coba jalankan aplikasi yang pernah kita pakai sebelumnya
+
 
 
 
