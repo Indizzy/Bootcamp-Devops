@@ -116,20 +116,19 @@ Pertama-tama masuk ke folder nginx setelah itu buat suatu directory baru telebih
 lalu buat direktori baru terserah kalian
 
 
-![image](https://user-images.githubusercontent.com/18206510/187965820-a5e82d28-27fd-4f8c-9aab-a52b3b0eb35a.png)
+![image](https://user-images.githubusercontent.com/18206510/187979818-c38d50a2-31c2-4d4e-8904-5a982f789298.png)
 
 
 
 kemudian ,masuk pada direktori tersebut lalu buat file dengan ekstensi .conf 
 
 
-![image](https://user-images.githubusercontent.com/18206510/187966097-8892e85a-d62b-438b-b7aa-77326925f11b.png)
-
+![image](https://user-images.githubusercontent.com/18206510/187980326-a7ecbb72-172e-4a1e-b0da-803df81a04f5.png)
 
 lalu masukan konfigurasi reverse proxy di dalam file tersebut
 
 
-![image](https://user-images.githubusercontent.com/18206510/187966925-42ff2e58-f471-45a7-9ee8-d560b408460f.png)
+![image](https://user-images.githubusercontent.com/18206510/187981879-346a7f14-d8fc-4a45-a3ff-650d4e4dff1d.png)
 
 
 pastikan port sesuai dengan yang digunakan oleh aplikasi
@@ -137,12 +136,12 @@ pastikan port sesuai dengan yang digunakan oleh aplikasi
 
 lalu keluar dari direktori tersebut dan masuk ke file nginx.conf
 
-![image](https://user-images.githubusercontent.com/18206510/187967115-2d570f4d-afad-45bb-983d-216932217b54.png)
+![image](https://user-images.githubusercontent.com/18206510/187982007-838dc9eb-801f-4e36-82b5-7167293d26c9.png)
 
 
 selanjutnya scroll ke bawah, di bagian include masukan lokasi dari direktori yang berisi konfigurasi tadi
 
-![image](https://user-images.githubusercontent.com/18206510/187967420-c28ed0ce-d53d-465a-96db-98f6c3a8fc77.png)
+![image](https://user-images.githubusercontent.com/18206510/187982230-3015b712-2e50-4f98-9272-8b6b01b14bbe.png)
 
 tanda bintang di sini menandakan bahwa nginx akan membaca semua yg ada pada direktori tersebut
 
@@ -156,7 +155,7 @@ lalu kemudian kita tinggal melakukan restart/reload pada nginx kita dengan perin
 
 ```sudo systemctl restart nginx```
 
-![image](https://user-images.githubusercontent.com/18206510/187967688-1ff8cfa5-2bca-4fc1-b573-6bbb5a13bde9.png)
+![image](https://user-images.githubusercontent.com/18206510/187982446-4e668b3f-7faa-470d-833d-79d8878d1f71.png)
 
 
 selanjutnya kita akan membuat virtual host di local server kita, untuk membuat virtual host kita harus masuk ke file /etc/hosts dengan perintah 
@@ -166,14 +165,17 @@ selanjutnya kita akan membuat virtual host di local server kita, untuk membuat v
 
 selanjutnya masukan ip server kita dan nama domain yang kita buat
 
-![image](https://user-images.githubusercontent.com/18206510/187968601-7229fd0a-9753-4795-96cb-15dc711718ca.png)
+![image](https://user-images.githubusercontent.com/18206510/187982938-37e387fc-4553-4f73-acef-ae01887b352c.png)
 
 
 jika sudah coba buka browser untuk akses domain kalian
 
-![image](https://user-images.githubusercontent.com/18206510/187969334-a915cd62-f437-4e33-9193-4f1cbda52b35.png)
+![image](https://user-images.githubusercontent.com/18206510/187983042-aced8ea3-2fee-4592-b1aa-2fa762dcdace.png)
 
-di sini terdapat tanda 502 bad getaway karena aplikasi kita belum berjalan, sekarang kita coba jalankan aplikasi yang pernah kita pakai sebelumnya
+di sini terdapat tanda 502 bad getaway karena aplikasi kita belum berjalan, sekarang kita coba jalankan aplikasi yang pernah kita pakai sebelumnya ikuti langkah-langkah berikut pertama kita clone aplikasinya
+
+
+
 
 masuk ke direktori aplikasi tersebut lalu install npm untuk menjalankan module dari node.js dengan perintah
 
