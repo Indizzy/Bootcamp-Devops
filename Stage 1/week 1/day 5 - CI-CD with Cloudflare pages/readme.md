@@ -1,25 +1,26 @@
-4. Task
-4.1 Instruksi​
-caution
+#4. Task
+#4.1 Instruksi
+
+#caution
 
 Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan sebagai dokumentasi tugas.
 
 Setelah mempelajari terkait CI/CD serta melakukan konfigurasi CI/CD menggunakan Cloudflare Pages, maka silakan jalankan aplikasi dengan ketentuan sebagai berikut:
 image1
-Kententuan​
+#Kententuan
 
     Fork repository berikut ke akun GitHub Anda https://github.com/dumbwaysdev/wayshub-frontend
     Deploy aplikasi yang sudah disediakan menggunakan Cloudflare Pages
     Kemudian lakukan perubahan pada file /public/index.html bagian <title>WaysHub</title> menjadi <title>WaysHub - Nama Anda</title>
     Pasikan CI/CD berjalan dengan baik hingga aplikasi dapat di akses
 
-4.2 Pengumpulan​
+#4.2 Pengumpulan
 
     Pastikan untuk mengerjakan tugas mingguan pada medium.com.
     Tulis step-by-step yang telah Anda lakukan secara detail dan sertakan screenshot setiap prosesnya.
     Setelah menyelesaikan tugas, silakan publish artikel yang sudah dibuat.
     
-    4.3 Project Management​
+   #4.3 Project Management
 
 Tambahkan deskripsi berikut ke dalam kanban pada project management Anda
 Melakukan konfigurasi CI/CD menggunakan Cloudflare Pages.
