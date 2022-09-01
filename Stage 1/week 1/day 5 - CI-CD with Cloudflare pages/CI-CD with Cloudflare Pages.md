@@ -10,15 +10,16 @@ CI/CD Set-Up with Cloudflare
 
 Pastikan kalian sudah melakukan register ke https://cloudflare.com, Jika kalian belum mempunyai akun Cloudflare kalian bisa melakukan registrasi dengan klik link tersebut.
 kemudian klik kata sign up yg berada di pojok kanan atas
-![image](https://user-images.githubusercontent.com/18206510/187818523-f23b7f80-586f-4127-b55c-ce58fcd13039.png)
+![image](https://user-images.githubusercontent.com/18206510/187820021-33518c4b-9e6f-4262-8466-6cee82c366c3.png)
 
-setelah melakukan registrasi lalu masuk ke menu home
 
-![image](https://user-images.githubusercontent.com/18206510/187818642-76f995b7-2e5b-42bb-8769-9cfec973e869.png)
+setelah melakukan registrasi lalu masuk ke menu pages
+
+![image](https://user-images.githubusercontent.com/18206510/187820207-b0eee26d-3f1f-415a-b819-f94dfb86833c.png)
 
 jika sudah lalu masuk ke menu pages untuk membuat project baru tapi sebelum bisa membuat project nanti kalian akan diminta untuk melakukan verifikasi akun cloudflare yang sudah kalian buat
 
 klik connct to git kemudian pilih connect to github agar repository kita di github terdeteksi oleh cloudflare
-![image](https://user-images.githubusercontent.com/18206510/187819833-8cf68266-3c16-4811-adfd-9bcf6468a454.png)
+![image](https://user-images.githubusercontent.com/18206510/187820301-4b9b04e8-b396-45fc-adeb-869f91d99879.png)
 
 
