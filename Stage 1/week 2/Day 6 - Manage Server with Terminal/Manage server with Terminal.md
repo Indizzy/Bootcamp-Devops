@@ -45,7 +45,9 @@ untuk menginstall firewall masukan perintah ```sudo apt install ufw -y```
 kemudian setelah itu jika kita ingin melakukan setup firewall maka bisa kita gunakan perintah sebagai berikut 
 
 ```sudo ufw allow 22```   ini berfungsi untuk membuka akses port 22
+
 ```sudo ufw allow 80```   ini berfungsi untuk membuka akses port 80
+
 ```sudo ufw allow 443```  ini berfungsi untuk membuka akses port 443
 
 
