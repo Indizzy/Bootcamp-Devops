@@ -201,7 +201,23 @@ lalu coba refresh kembali browser kita
 jika hasilnya seperti ini maka aplikasi kita berhasil dijalankan.
 
 # 4 Load balancing
+# 4.1 Apa itu Load Balancing?
 
+Load Balancing adalah suatu jaringan komputer yang menggunakan metode untuk mendistribusikan beban kerjaan pada dua atau bahkan lebih suatu koneksi jaringan secara seimbang agar pekerjaan dapat berjalan optimal dan tidak overload (kelebihan) beban pada salah satu jalur koneksi.
+
+# 4.2 Kenapa Harus Load Balancing?
+
+
+
+Jika kita memiliki website atau aplikasi yang telah digunakan hingga ribuan, ratusan atau bahkan jutaan pengguna maka kita harus melakukan load balancing pada aplikasi tersebut agar tidak down, karena beban akses pengguna dibagi ke beberapa server sekaligus.
+
+# 4.3 Membuat Konfigurasi Load Balancing
+
+   Untuk membuat Load Balancing kalian harus membuat server baru lagi. Untuk cara membuat server kalian ikuti saja step by step seperti saat pertemuan Fundamental DevOps : Install Ubuntu Server
+
+  Jika server kalian sudah terbuat maka buatlah aplikasi sederhana sama seperti pertemuan sebelumnya (node.js). setelah itu jalankan aplikasi tersebut.
+  
+  
 
 
 
