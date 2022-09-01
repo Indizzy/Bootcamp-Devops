@@ -182,7 +182,7 @@ lalu tunggu hingga prosesnya selesai kemudian start npm dengan perintah
 ```npm start```
 
 
-![image](https://user-images.githubusercontent.com/18206510/187951493-47c171ab-6b11-4d3f-baea-13075f83efa2.png)
+![image](https://user-images.githubusercontent.com/18206510/187975247-fb1db6b0-fbd8-40ac-8f2e-62e5be78f50a.png)
 
 
 ![image](https://user-images.githubusercontent.com/18206510/187952916-a4bad326-4d7c-4e1d-b83d-5907d2312234.png)
