@@ -44,7 +44,8 @@ Jika kalian sudah menjalankan beberapa perintah diatas kalian sudah berhasil unt
 
 ```nginx -v```
 
-![image](https://user-images.githubusercontent.com/18206510/187915749-81ff9a27-958b-413b-8b6b-1742d3196331.png)
+![image](https://user-images.githubusercontent.com/18206510/187915937-b680852a-62f9-4c48-aa6b-f585adabb2c9.png)
+
 
 
 
