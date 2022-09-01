@@ -86,10 +86,15 @@ Reverse proxy adalah konfigurasi standar yang digunakan untuk mengubah jalur tra
 Berikut adalah konfigurasi dari revese proxy.
 
 server { 
-    server_name domain.com; 
-    
-   location / { 
-             proxy_pass http://127.0.0.1:3000;
+
+
+   server_name domain.com; 
+   
+   
+   location / {
+ 
+ 
+ proxy_pass http://127.0.0.1:3000;
     }
 }
 
