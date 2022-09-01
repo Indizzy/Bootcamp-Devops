@@ -189,7 +189,7 @@ lalu tunggu hingga prosesnya selesai kemudian start npm dengan perintah
 
 selanjutnya coba refresh browser kita
 
-
+ ,
 
 
 
