@@ -46,6 +46,12 @@ Jika kalian sudah menjalankan beberapa perintah diatas kalian sudah berhasil unt
 
 ![image](https://user-images.githubusercontent.com/18206510/187915937-b680852a-62f9-4c48-aa6b-f585adabb2c9.png)
 
+kemudian untuk bisa melihat status nginx bisa menggunakan perintah
+
+```sudo systemctl status nginx```
+
+
+![image](https://user-images.githubusercontent.com/18206510/187916440-3dd75535-9845-4900-b5d0-d391df5e1bf9.png)
 
 
 
