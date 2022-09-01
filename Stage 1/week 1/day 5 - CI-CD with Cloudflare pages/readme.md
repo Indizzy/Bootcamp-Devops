@@ -6,7 +6,8 @@
 Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan sebagai dokumentasi tugas.
 
 Setelah mempelajari terkait CI/CD serta melakukan konfigurasi CI/CD menggunakan Cloudflare Pages, maka silakan jalankan aplikasi dengan ketentuan sebagai berikut:
-image1
+![image](https://user-images.githubusercontent.com/18206510/187816062-b3e75b9c-e1f3-42ae-8a48-100515e9c615.png)
+
 #Kententuan
 
     Fork repository berikut ke akun GitHub Anda https://github.com/dumbwaysdev/wayshub-frontend
