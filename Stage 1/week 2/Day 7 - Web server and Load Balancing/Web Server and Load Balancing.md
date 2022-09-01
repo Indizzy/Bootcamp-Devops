@@ -78,6 +78,46 @@ untuk melihat nginx telah terinstall kita juga bisa mengakses ip dari server kit
 ![image](https://user-images.githubusercontent.com/18206510/187919014-321e7528-4a3f-4606-91fa-2da4e75b2f5e.png)
 
 
+# 3. Reverse Proxy
+# 3.1 Apa itu Reverse Proxy?
+
+Reverse proxy adalah konfigurasi standar yang digunakan untuk mengubah jalur traffic, misalkan aplikasi menggunakan port 3000 tetapi agar dapat di akses melalui port 80 maka harus menggunakan reverse proxy.
+
+Berikut adalah konfigurasi dari revese proxy.
+
+server { 
+    server_name domain.com; 
+    
+    location / { 
+             proxy_pass http://127.0.0.1:3000;
+    }
+}
+
+
+# 3.2 Kenapa Harus Reverse Proxy?
+
+Untuk mengamankan aplikasi yang berjalan pada server maka kita perlu untuk melakukan reverse proxy, supaya pengguna tidak dapat mengakses aplikasi kita secara langsung.
+
+# 3.3 Membuat Konfigurasi Revese Proxy
+
+Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
+
+Pertama-tama masuk ke folder nginx setelah itu buat suatu directory baru telebih dahulu.
+
+```cd /etc/nginx```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
