@@ -39,7 +39,8 @@ kemudian kita install nginx-nya dengan perintah
 
 jika keluar notifikasi 'Do you want to continue?' maka ketik saja Y lalu tunggu hingga prosesnya selesai
 
-![image](https://user-images.githubusercontent.com/18206510/187914706-45b6ebf4-a80c-4aea-8de8-8b9a122ff88d.png)
+![image](https://user-images.githubusercontent.com/18206510/187914834-3d31c7a9-c974-47bc-b7a9-98db429c82ed.png)
+
 
 
 
