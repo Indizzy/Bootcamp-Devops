@@ -139,13 +139,21 @@ jika sudah maka masukan perintah ```htop``` untuk memonitoring server kita maka 
 Keterangan :
 
  CPU adalah berapa jumlah core yang kita miliki.
+ 
  Mem adalah total penggunaan memory.
+ 
  Swp adalah Memory cadangan.
+ 
  Tasks adalah aplikasi yang sedang berjalan di server.
+ 
  Load average adalah rata-rata aplikasi yang berjalan.
+ 
  Uptime adalah berapa lama server kita hidup.
+ 
  PID adalah nomor proses id setiap proses yang berjalan di linux.
+ 
  VIRT adalah memory yang terpakai.
+ 
  Command adalah perintah apa yang sedang di jalankan.
 
 
