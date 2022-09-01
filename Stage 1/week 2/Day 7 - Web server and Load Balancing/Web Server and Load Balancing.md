@@ -191,7 +191,16 @@ lalu tunggu hingga prosesnya selesai kemudian start npm dengan perintah
 
 ```npm start```
 
+![image](https://user-images.githubusercontent.com/18206510/187988008-db3e273f-09d8-42ad-b44a-a5ab09e7ad3f.png)
 
+
+lalu coba refresh kembali browser kita
+
+![image](https://user-images.githubusercontent.com/18206510/187988303-e3d0dd2f-548c-496a-9497-b7edf17fb0bb.png)
+
+jika hasilnya seperti ini maka aplikasi kita berhasil dijalankan.
+
+# 4 Load balancing
 
 
 
