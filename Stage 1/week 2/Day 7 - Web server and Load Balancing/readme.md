@@ -5,6 +5,9 @@ Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan
 
 Setelah mempelajari terkait web server, reverse proxy dan load balancing maka buatlah konfigurasi dengan ketentuan sebagai berikut:
 
+![image](https://user-images.githubusercontent.com/18206510/187910971-6e425a09-7c71-4f5b-b79f-93e6f7175285.png)
+
+
 # Ketentuan
 
 
