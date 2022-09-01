@@ -218,6 +218,21 @@ Jika kita memiliki website atau aplikasi yang telah digunakan hingga ribuan, rat
   Jika server kalian sudah terbuat maka buatlah aplikasi sederhana sama seperti pertemuan sebelumnya (node.js). setelah itu jalankan aplikasi tersebut.
   
   
+  ![image](https://user-images.githubusercontent.com/18206510/187992123-c6784106-8a39-424a-8800-ad9ee3ebfd28.png)
+  
+  
+
+  ![image](https://user-images.githubusercontent.com/18206510/187992344-06b1b31f-f789-4616-a547-dc409ed6ec32.png)
+  
+  
+  ![image](https://user-images.githubusercontent.com/18206510/187994012-da1edd8c-843b-4858-b439-57413e1f19df.png)
+
+  
+jika sudah lalu jalankan aplikasinya dengan perintah 
+
+```npm start```
+
+   
 
 
 
