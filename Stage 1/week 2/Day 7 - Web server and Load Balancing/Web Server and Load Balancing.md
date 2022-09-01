@@ -233,7 +233,16 @@ jika sudah lalu jalankan aplikasinya dengan perintah
 ```npm start```
 
    
+![image](https://user-images.githubusercontent.com/18206510/188029646-41864a0f-7548-45a9-843a-45cf17614500.png)
 
+
+Sekarang kita sudah mempunyai 2 buah server untuk aplikasi kita.
+
+Sekarang kita akan coba untuk membuat konfigurasi load balancing.
+
+Pertama-tama kita masuk ke dalam konfigurasi reverse proxy yang sudah kita buat sebelumnya dengan melakukan perintah 
+
+```sudo nano /etc/nginx/dumbways/reverse.conf```
 
 
 
