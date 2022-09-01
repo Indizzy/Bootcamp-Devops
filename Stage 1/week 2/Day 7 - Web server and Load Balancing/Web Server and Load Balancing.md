@@ -168,6 +168,18 @@ jika sudah coba buka browser untuk akses domain kalian
 
 di sini terdapat tanda 502 bad getaway karena aplikasi kita belum berjalan, sekarang kita coba jalankan aplikasi yang pernah kita pakai sebelumnya
 
+masuk ke direktori aplikasi tersebut lalu install npm untuk menjalankan module dari node.js dengan perintah
+
+```npm install```
+
+![image](https://user-images.githubusercontent.com/18206510/187949604-ce50ee42-d9f2-45ce-8097-a9fd1f4f9479.png)
+
+lalu tunggu hingga prosesnya selesai
+
+
+
+
+
 
 
 
