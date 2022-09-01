@@ -122,7 +122,7 @@ kemudian ,masuk pada direktori tersebut lalu buat file dengan ekstensi .conf
 lalu masukan konfigurasi reverse proxy di dalam file tersebut
 
 
-![image](https://user-images.githubusercontent.com/18206510/187943920-c4e175ad-be49-493c-9767-b821bb45895c.png)
+![image](https://user-images.githubusercontent.com/18206510/187953964-2f1aa364-9ec1-43a3-9eb2-628fe2bf38d1.png)
 
 
 pastikan port sesuai dengan yang digunakan oleh aplikasi
@@ -170,11 +170,26 @@ di sini terdapat tanda 502 bad getaway karena aplikasi kita belum berjalan, seka
 
 masuk ke direktori aplikasi tersebut lalu install npm untuk menjalankan module dari node.js dengan perintah
 
-```npm install```
+```sudo apt install npm```
 
-![image](https://user-images.githubusercontent.com/18206510/187949604-ce50ee42-d9f2-45ce-8097-a9fd1f4f9479.png)
+![image](https://user-images.githubusercontent.com/18206510/187951339-96edc009-297e-4a58-947d-c9b41d4656f5.png)
 
-lalu tunggu hingga prosesnya selesai
+
+lalu tunggu hingga prosesnya selesai kemudian start npm dengan perintah
+
+```npm start```
+
+
+![image](https://user-images.githubusercontent.com/18206510/187951493-47c171ab-6b11-4d3f-baea-13075f83efa2.png)
+
+
+![image](https://user-images.githubusercontent.com/18206510/187952916-a4bad326-4d7c-4e1d-b83d-5907d2312234.png)
+
+
+
+selanjutnya coba refresh browser kita
+
+
 
 
 
