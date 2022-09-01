@@ -94,6 +94,8 @@ server {
 }
 
 
+
+
 # 3.2 Kenapa Harus Reverse Proxy?
 
 Untuk mengamankan aplikasi yang berjalan pada server maka kita perlu untuk melakukan reverse proxy, supaya pengguna tidak dapat mengakses aplikasi kita secara langsung.
@@ -105,6 +107,89 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
 Pertama-tama masuk ke folder nginx setelah itu buat suatu directory baru telebih dahulu.
 
 ```cd /etc/nginx```
+
+lalu buat direktori baru terserah kalian
+
+![image](https://user-images.githubusercontent.com/18206510/187942684-74e55e30-1be8-402a-92eb-fc352d2d7ba8.png)
+
+
+kemudian ,masuk pada direktori tersebut lalu buat file dengan ekstensi .conf 
+
+
+![image](https://user-images.githubusercontent.com/18206510/187943173-1102f66e-e9de-4ec5-a2b7-5a7f33f45e99.png)
+
+
+lalu masukan konfigurasi reverse proxy di dalam file tersebut
+
+
+![image](https://user-images.githubusercontent.com/18206510/187943920-c4e175ad-be49-493c-9767-b821bb45895c.png)
+
+
+pastikan port sesuai dengan yang digunakan oleh aplikasi
+
+
+lalu keluar dari direktori tersebut dan masuk ke file nginx.conf
+
+![image](https://user-images.githubusercontent.com/18206510/187944710-33d022d5-e861-42fd-b691-32284b3bfccf.png)
+
+
+selanjutnya scroll ke bawah, di bagian include masukan lokasi dari direktori yang berisi konfigurasi tadi
+
+![image](https://user-images.githubusercontent.com/18206510/187945106-01c7024c-fd35-4819-a4db-634b290870c2.png)
+
+tanda bintang di sini menandakan bahwa nginx akan membaca semua yg ada pada direktori tersebut
+
+jika sudah maka pastikan konfigurasi tadi sudah benar dengan perintah 
+
+```sudo nginx -t```
+
+![image](https://user-images.githubusercontent.com/18206510/187945630-82779272-439c-45b8-9b05-5887d1245d41.png)
+
+lalu kemudian kita tinggal melakukan restart/reload pada nginx kita dengan perintah 
+
+```sudo systemctl restart nginx```
+
+![image](https://user-images.githubusercontent.com/18206510/187946148-5896768e-6a4c-491a-b09c-fc0e2196d890.png)
+
+
+selanjutnya kita akan membuat virtual host di local server kita, untuk membuat virtual host kita harus masuk ke file /etc/hosts dengan perintah 
+
+
+```sudo nano /etc/hosts```
+
+selanjutnya masukan ip server kita dan nama domain yang kita inginkan
+
+![image](https://user-images.githubusercontent.com/18206510/187947065-c781fbc3-d7b6-4a93-9df8-7ab86d0d8658.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
