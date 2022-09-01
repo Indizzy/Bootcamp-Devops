@@ -28,4 +28,44 @@ di sini saya menggunakan repository dari https://github.com/dumbwaysdev/wayshub-
 klik create new fork
 ![image](https://user-images.githubusercontent.com/18206510/187824497-8c15239a-0640-4e7b-926c-5a5e8bdc775a.png)
 
+kemudian kembali lagi ke halaman connect to github lalu masukkan akun github kemudian pilih all repository
+
+![image](https://user-images.githubusercontent.com/18206510/187828954-83944c77-9957-4616-94e4-7f0e009ca1e5.png)
+
+lalu kita akan diarahkan kembali ke menu pages cloudflare kita kemudian pilih repository yang sudah kita fork tadi lalu klik begin setup
+
+![image](https://user-images.githubusercontent.com/18206510/187829146-f9378a20-58e1-47eb-aab2-d760102889ea.png)
+
+kemudian pada bagian setup builds and deployment pada bagian framework preset pilih sesuai framework yang kita gunakan di sini saya memilih Create React app karena framework yang kita gunakan adalah react, lalu pada bagian Build Command akan terisi automatis 
+jika sudah maka klik save and deploy
+
+![image](https://user-images.githubusercontent.com/18206510/187829607-d1d908ee-28d5-48fe-94e1-a4ff6b87881e.png)
+ 
+ setelah itu tunggu sampai proses deploy selesai
+ 
+ ![image](https://user-images.githubusercontent.com/18206510/187829763-6d5fb24f-0677-4bde-92c1-ec8ce5fdee0a.png)
+
+jika sudah berhasil maka akan muncul notifikasi seperti ini
+
+![image](https://user-images.githubusercontent.com/18206510/187829933-890cbbfc-aad9-4bc4-93ff-3f4564e63a76.png)
+
+
+selanjutnya mari kita coba membuka url yang diberikan untuk memastikan apakah project kita bisa berjalan di browser
+
+![image](https://user-images.githubusercontent.com/18206510/187830115-e611a9ee-ffca-4850-847a-5a8f697a2958.png)
+
+nah jika sudah berhasil maka akan muncul tampilan dari project yg kita buat tadi
+
+Lalu di step kali ini kita akan mencoba untuk mengubah title pada project yang kita buat tadi
+
+
+
+
+
+
+
+
+
+
+
 
