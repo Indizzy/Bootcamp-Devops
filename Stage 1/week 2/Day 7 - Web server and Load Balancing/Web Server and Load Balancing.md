@@ -244,8 +244,37 @@ Pertama-tama kita masuk ke dalam konfigurasi reverse proxy yang sudah kita buat 
 
 ```sudo nano /etc/nginx/dumbways/reverse.conf```
 
+lalu masukkan konfigurasi seperti berikut
+
+![image](https://user-images.githubusercontent.com/18206510/188040195-9c3bc8d0-33f2-4070-962b-cd0df1c1141b.png)
 
 
+keterangan :
+
+Pada bagian upstream kalian dapat mengganti nama domain dengan nama yang kalian inginkan.
+
+Pada bagian server masukan IP dari server kalian, setelah itu diikuti dengan port aplikasi.
+
+  Selanjutnya pada bagian proxy_pass ubah dari yang sebelumnya adalah alamat IP dari aplikasi kalian, sekarang kalian samakan dengan nama upstream yang ada di konfigurasi kalian.
+
+  Jika sudah sekarang kita coba cek apakah konfigurasi yang sudah kita buat tadi itu error atau tidak.
+
+masukan perintah :
+
+```sudo nginx -t```
+
+![image](https://user-images.githubusercontent.com/18206510/188040371-cb776cc4-c95f-45ad-9bc0-5d4cd27e967e.png)
+
+jika sudah maka kita harus melakukan restart/reload pada nginx kita karena kita sudah melakukan perubahan, untuk itu ketikkan perintah
+
+```sudo systemctl reload nginx```
+
+
+![image](https://user-images.githubusercontent.com/18206510/188040545-92dfe34f-313c-400a-90c8-1aa7894ea80c.png)
+
+jika sudah maka mari kita coba jalankan aplikasi kita
+
+![image](https://user-images.githubusercontent.com/18206510/188040636-0e5c2cc7-836d-4087-8ac4-75b7bcd858cb.png)
 
 
 
