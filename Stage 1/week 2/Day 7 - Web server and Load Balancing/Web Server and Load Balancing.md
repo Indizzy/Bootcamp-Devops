@@ -277,6 +277,11 @@ jika sudah maka mari kita coba jalankan aplikasi kita
 ![image](https://user-images.githubusercontent.com/18206510/188040636-0e5c2cc7-836d-4087-8ac4-75b7bcd858cb.png)
 
 
+![image](https://user-images.githubusercontent.com/18206510/188040863-4c5829ee-fd5a-445f-843e-dc44378483e0.png)
+
+
+kemudian kita cek dengan memasukkan domain kita ke browser
+
 
 
 
