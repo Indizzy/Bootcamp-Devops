@@ -101,7 +101,7 @@ Lalu klik ```Create```
 tunggu prosesnya selesai
 
 
-![image](https://user-images.githubusercontent.com/18206510/188890423-c9a1f732-ddd7-4ee8-b92c-23ad8eff989e.png)
+![image](https://user-images.githubusercontent.com/18206510/188893071-0bff7c0a-f260-475e-8271-5606d183130e.png)
 
 
 
