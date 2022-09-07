@@ -60,7 +60,9 @@ lalu setelah itu kita bisa memilih ```compute``` lalu ```new``` di bagian kiri d
 Lalu pada bagian ``` Create new resource ``` kita isi seperti berikut :
 
 Type        : virtual machine (karena kita di sini akan membuat machine virtual)
+
 OS          : di sini saya memilih Ubuntu 20.04 lts
+
 Location    : kemudian di sini kita pilih lokasinya ke Indonesia
 
 
@@ -69,11 +71,18 @@ Location    : kemudian di sini kita pilih lokasinya ke Indonesia
 
 
 Size              : 1 cpu, 1GB RAM, 20 GB Disk
+
 Public IP         : kita select pada bagian create a public ipv4 
+
 Vpc Network       : biarkan default saja
+
 Username          : kita isi bebas sesuai keinginan
+
 password          : bebas
+
 confirm password  : ulangi password 
+
+
 SSh               : di sini kita biarkan kosong saja
 
 
