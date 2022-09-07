@@ -50,6 +50,51 @@ lalu di sini karena saya akan menggunakan akun dari dumbways maka di bagian prof
 
 
 
+lalu setelah itu kita bisa memilih ```compute``` lalu ```new``` di bagian kiri dashboard IDCH kita untuk mulai membuat server
+
+
+![image](https://user-images.githubusercontent.com/18206510/188880965-568ba1bd-20f6-47e6-bdb5-6177126283e3.png)
+
+
+
+Lalu pada bagian ``` Create new resource ``` kita isi seperti berikut :
+
+Type        : virtual machine (karena kita di sini akan membuat machine virtual)
+OS          : di sini saya memilih Ubuntu 20.04 lts
+Location    : kemudian di sini kita pilih lokasinya ke Indonesia
+
+
+![image](https://user-images.githubusercontent.com/18206510/188887226-a3913b8f-9352-40c0-b2ad-5aa25f08cfa7.png)
+
+
+
+Size              : 1 cpu, 1GB RAM, 20 GB Disk
+Public IP         : kita select pada bagian create a public ipv4 
+Vpc Network       : biarkan default saja
+Username          : kita isi bebas sesuai keinginan
+password          : bebas
+confirm password  : ulangi password 
+SSh               : di sini kita biarkan kosong saja
+
+
+![image](https://user-images.githubusercontent.com/18206510/188889591-ce78d3a9-c573-4e3f-853f-080d95b685e3.png)
+
+
+
+di bagian resource name : nama bebas
+
+Lalu klik ```Create``` 
+
+
+![image](https://user-images.githubusercontent.com/18206510/188890114-dded23f9-7375-4083-8ef9-dde2c9101817.png)
+
+
+tunggu prosesnya selesai
+
+
+![image](https://user-images.githubusercontent.com/18206510/188890423-c9a1f732-ddd7-4ee8-b92c-23ad8eff989e.png)
+
+
 
 
 
