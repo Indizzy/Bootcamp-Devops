@@ -104,6 +104,58 @@ tunggu prosesnya selesai
 ![image](https://user-images.githubusercontent.com/18206510/188893071-0bff7c0a-f260-475e-8271-5606d183130e.png)
 
 
+nah jika sudah selesai maka beginilah tampilannya 
+
+
+![image](https://user-images.githubusercontent.com/18206510/188968073-a8f4cbae-dcf6-4dd5-a8ce-417d4cafea76.png)
+
+
+
+lalu sekarang kita koneksikan server tadi ke lokal kita melalui SSH dengan melakukan perintah 
+
+``` ssh user akun@Ip address dari server yang kita buat tadi ```
+
+
+![image](https://user-images.githubusercontent.com/18206510/188969325-c7009ad1-768e-4d6a-90e3-881656526fb5.png)
+
+
+selanjutnya kita lakukan update dan upgrade
+
+
+![image](https://user-images.githubusercontent.com/18206510/188979282-3550071a-c440-4533-b3c7-fa3598c5e8ec.png)
+
+
+
+selanjutnya kita akan mengaktifkan pubkeyauthentication dan passwordauthentication dengan cara masuk ke
+
+``` sudo nano /etc/ssh/sshd_config ``` 
+
+![image](https://user-images.githubusercontent.com/18206510/188975652-38bb19c6-8d27-45ef-8c25-abd656bd245c.png)
+
+
+kemudian di sini kita akan menjalankan aplikasi dumblix frontend, pertama-tama kita install engine dari si node js dengan perintah 
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+
+
+![image](https://user-images.githubusercontent.com/18206510/188977171-0cc26f61-ee48-411d-af9e-03a7c1b443da.png)
+
+
+setelah itu kita lakukan eksekusi pada bash dengan perintah 
+
+```
+exec bash
+```
+
+
+
+
+
+
+
+
 
 
 
