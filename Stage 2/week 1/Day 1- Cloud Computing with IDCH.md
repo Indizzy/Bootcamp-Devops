@@ -148,6 +148,26 @@ setelah itu kita lakukan eksekusi pada bash dengan perintah
 ```
 exec bash
 ```
+lalu selanjutnya kita install NVM ( node version manager ) dan NPM ( Node Package Manager )
+
+dengan perintah 
+
+```
+nvm install 16 (untuk menginstall versi 16)
+```
+
+![image](https://user-images.githubusercontent.com/18206510/188981381-39d3080e-e0cd-4b42-9568-1ddd4a71e061.png)
+
+
+lalu untuk menginstall npm gunakan perintah
+
+```
+sudo apt install npm
+```
+
+kemudian tunggu sampai selesai
+
+![image](https://user-images.githubusercontent.com/18206510/188982159-cc319ce5-93ba-4e91-8a32-0c779bba2c7b.png)
 
 
 
