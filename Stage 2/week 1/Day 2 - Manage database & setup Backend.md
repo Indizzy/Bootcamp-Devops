@@ -366,6 +366,48 @@ sekarang kita coba jalankan dengan perintah
 
 # menghubungkan antara Frontend dan Backend
 
+ Sebelum menghubungkan aplikasi frontend dan backend kita perlu mengatur domain untuk backend
+
+Disini sama seperti saat mengatur domain untuk frontend kita menggunakan domain dari CloudFlare, klik pada bilah kiri di bagian dns dan buat domain
+
+Domain yang akan kita buat untuk backend yaitu api.awan.studentdumbways.my.id
+
+
+![image](https://user-images.githubusercontent.com/18206510/189164036-338f475b-d251-481b-9bd1-de780dc32846.png)
+
+
+selanjutnya kita akan membuat reverse proxy untuk domain yang sudah kita buat tadi pertama masuk ke server tempat kita menginstall nginx tadi lalu masuk ke 
+/etc/nginx/dumbflix
+
+
+lalu kita buatkan file baru beserta konfigurasinya
+
+
+![image](https://user-images.githubusercontent.com/18206510/189165643-8de2448c-c8be-4b8e-bd38-0f0451bb5572.png)
+
+
+jika sudah lalu simpan kemudian masukan perintah 
+
+```sudo nginx -t``` untuk memastikan apakah syntax yang kita buat berhasil dan perintah
+
+
+```sudo systemctl reload nginx``` untuk mereload nginx kita
+
+
+![image](https://user-images.githubusercontent.com/18206510/189166437-b501e931-4dcb-4ff9-8954-a3232a6db4b7.png)
+
+
+jika sudah maka kita coba buka di browser 
+
+
+
+
+
+
+
+
+
+
 
 
 
