@@ -64,7 +64,31 @@ masukkan perintah
 sudo mysql_secure_installation
 ```
 
-![image](https://user-images.githubusercontent.com/18206510/189094205-7c1df06e-cb17-4f51-96ce-f5b447dde728.png)
+![image](https://user-images.githubusercontent.com/18206510/189105593-a90d6f21-6a65-48a4-8526-cf6f59c2cdd6.png)
+
+
+kemudian kita diminta untuk memasukkan password yang kuat
+
+
+![image](https://user-images.githubusercontent.com/18206510/189110422-26f67b30-0d98-4823-a7aa-e511eee0b5db.png)
+
+
+untuk mengecek versi mysql yang kita gunakan bisa dengan perintah
+
+``` mysql --version```
+
+![image](https://user-images.githubusercontent.com/18206510/189110821-fca2de11-2725-4d4a-a42b-f38e3509a079.png)
+
+
+kemudian untuk masuk ke mysql kita gunakan perintah
+
+```mysql -u root -p```
+
+karena tadi kita sudah memasukkan password untuk mysql kita
+
+
+![image](https://user-images.githubusercontent.com/18206510/189112199-4d34d8cb-8c2b-4356-bc31-9423ab7920e8.png)
+
 
 
 
