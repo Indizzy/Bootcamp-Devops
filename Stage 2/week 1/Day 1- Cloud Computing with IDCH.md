@@ -126,13 +126,6 @@ selanjutnya kita lakukan update dan upgrade
 
 
 
-selanjutnya kita akan mengaktifkan pubkeyauthentication dan passwordauthentication dengan cara masuk ke
-
-``` sudo nano /etc/ssh/sshd_config ``` 
-
-![image](https://user-images.githubusercontent.com/18206510/188975652-38bb19c6-8d27-45ef-8c25-abd656bd245c.png)
-
-
 kemudian di sini kita akan menjalankan aplikasi dumblix frontend, pertama-tama kita install engine dari si node js dengan perintah 
 
 ```
@@ -168,6 +161,133 @@ sudo apt install npm
 kemudian tunggu sampai selesai
 
 ![image](https://user-images.githubusercontent.com/18206510/188982159-cc319ce5-93ba-4e91-8a32-0c779bba2c7b.png)
+
+
+kemudian kita lakukan cloning pada aplikasi yang akan kita gunakan dengan cara memasukkan command berikut
+
+```
+git clone https://github.com/dumbwaysdev/dumbflix-frontend
+
+```
+
+![image](https://user-images.githubusercontent.com/18206510/189026294-f025c21f-bf2f-46f0-b679-4e2c843ca58c.png)
+
+
+setelah itu kita install node module di dalam aplikasi yang kita clone tadi dengan perintah 
+
+
+```
+npm i
+
+```
+
+![image](https://user-images.githubusercontent.com/18206510/189026524-808cce67-e46b-4f49-a6f5-77be51a7e4bd.png)
+
+
+
+Selanjutnya kita akan membuat satu server lagi dimana akan kita install nginx, pertama kembali lagi ke halaman IDCloudhost lalu pilih seperti berikut :
+
+Type  : kali ini kita pilih app catalog agar bisa menginstall nginx
+
+OS    : kita klik NGINX (ubuntu 21.04)
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/189028728-1e5f6267-acf7-428f-aedf-7f2583df6d65.png)
+
+
+Location    : kita pilih indonesia
+
+
+Size        : 1 cpu, 1GB ram, 20 GB disk
+
+
+public ip   : kita select 
+
+
+vpc network : kita biarkan saja default
+
+
+username    : isi bebas
+
+
+password    : bebas
+
+
+![image](https://user-images.githubusercontent.com/18206510/189029328-5f8c9723-a687-4d2e-b6d5-111b034946d2.png)
+
+
+confirm password : ulangi password yang sama
+
+
+resource name : bebas
+
+
+![image](https://user-images.githubusercontent.com/18206510/189029583-9f771627-1de2-4994-8ea0-d2d5c152f4f3.png)
+
+
+lalu tunggu prosesnya hingga selesai
+
+
+![image](https://user-images.githubusercontent.com/18206510/189029672-52518989-b19e-4784-880e-5a48303769d7.png)
+
+
+begini tampilan server yang sudah kita buat tadi
+
+
+![image](https://user-images.githubusercontent.com/18206510/189030079-29141224-a168-4ad1-beeb-a4d8d54a9fef.png)
+
+
+selanjutnya lakukan remote server pada seerver yang sudah kita buat tadi dengan perintah
+
+
+```ssh username@ip server```
+
+![image](https://user-images.githubusercontent.com/18206510/189030530-984f3297-efa1-422c-a98e-bfd47450b2b7.png)
+
+
+seperti biasa kita lakukan update dan upgrade 
+
+
+![image](https://user-images.githubusercontent.com/18206510/189030806-fe5affb3-95a6-4c4d-89e1-5b39696a3e2f.png)
+
+
+kemudian untuk cek nginx yang kita gunakan masukan perintah 
+
+```nginx -v ```
+
+![image](https://user-images.githubusercontent.com/18206510/189034438-f80391ae-02ba-4c48-9064-3a1f0394055e.png)
+
+
+lalu kita masuk ke /etc/nginx/ untuk membuat folder dimana kita akan melakukan reverse proxy
+
+![image](https://user-images.githubusercontent.com/18206510/189034807-25479054-d47b-4fe9-96bb-b4aabc04f19a.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
