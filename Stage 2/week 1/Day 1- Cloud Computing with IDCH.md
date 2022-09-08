@@ -477,6 +477,54 @@ nah di sini domain kita sudah berubah menjadi HTTPS
 
 
 
+# Additional
+
+jika merasa lelah memasukkan password setiap kali mengakses server melalui lokal kita maka bisa kita lakukan setting authorized key-nya
+
+
+pertama masuk ke lokal kita lalu generate ssh dengan perintah 
+
+```ssh-keygen```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189058968-5c417dc6-9e43-41d7-abb0-493a4d8a3c1e.png)
+
+di situ karena saya sudah pernah melakukan generate maka tertulis overwrite .... 
+
+jika belum maka tidak akan keluar 
+
+kita tinggal enter saja
+
+lalu kita copy ke server kita dengan perintah 
+
+```scp -r  .ssh/id_rsa.pub indist@103.179.57.241:~/tempat_rsa.pub```
+
+![image](https://user-images.githubusercontent.com/18206510/189060837-98a52854-cc14-4ff4-83f9-4d4fe78566ff.png)
+
+
+masuk ke server tujuan tadi lalu di sini kita bisa lihat bahwa file sudah tercopy
+
+
+langkah selanjutnya adalah masukan file tadi ke authorized key dengan cara 
+
+``` cat tempat_rsa.pub >> .ssh/authorized_keys```
+
+![image](https://user-images.githubusercontent.com/18206510/189062159-2386af0d-9124-4594-b496-dd43fb2f80c0.png)
+
+
+selanjutnya tinggal exit lalu cek apakah kita masih dimintai password saat melakukan login ke server kita melalui lokal
+
+
+![image](https://user-images.githubusercontent.com/18206510/189062568-2233eadc-ca57-4b11-953d-e8adfc198ea2.png)
+
+
+dan di situ terlihat kita sudah tidak dimintai password
+
+
+
+
+
+
 
 
 
