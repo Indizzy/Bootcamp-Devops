@@ -400,9 +400,17 @@ jika sudah lalu simpan kemudian masukan perintah
 jika sudah maka kita coba buka di browser 
 
 
+![image](https://user-images.githubusercontent.com/18206510/189237315-f7c41161-c67e-4dbb-bb81-af6dbc0ee489.png)
+
+
+di sini terlihat sudah bisa masuk melalui ip 
+
+
+![image](https://user-images.githubusercontent.com/18206510/189237401-6041a3b4-d845-4585-9712-7c8a947886b6.png)
 
 
 
+tapi belum bisa melalui domain
 
 
 
