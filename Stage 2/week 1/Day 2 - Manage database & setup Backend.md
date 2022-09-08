@@ -252,6 +252,86 @@ kemudian untuk mengecek versi dari nvm dan npm bisa gunakan perintah
 
 # Remote database oleh client
 
+untuk meremote database dari client maka kita install dulu mysql-cient dengan memasukkan perintah
+
+
+```sudo apt install mysql-client```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189143420-aff814d7-7d84-4a55-a05f-4b33ab86a127.png)
+
+
+tunggu sampai prosesnya selesai
+
+
+kemudian kita coba masuk menggunakan user dan password pada database yang sudah kita buat sebelumnya
+
+
+```mysql -u awan -h 103.174.115.159 -p```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189144696-73acb650-b390-4d66-85e3-873ac8085ec7.png)
+
+
+kemudian kita akan mencoba melakukan migrasi dari backend ke database, masuk ke file /config/config.json lalu lakukan sedikit penyesuaian
+
+
+![image](https://user-images.githubusercontent.com/18206510/189147123-b69d8db1-d9ef-4e2d-b034-559584dcda01.png)
+
+
+kemudian kita install sequelize yang berfungsi untuk bekerja dengan database dan relasi-relasi di dalamnya. Sehingga pada saat deployment kamu tidak perlu
+
+melakukan perubahan konteks saat menuliskan kode karena kamu sudah membuat interaksi menggunakan bahasa Javascript melalui api yang sudah disediakan oleh
+Sequelize.
+
+masukan perintah berikut untuk menginstall sequelize
+
+
+```npm install -g sequelize-cli```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189149023-2d889dcd-6575-47d3-af2d-18fe8881f0f5.png)
+
+
+kemudian kita coba migrasi data dengan perintah 
+
+
+```npx sequelize db:migrate```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189149575-60ecaeaa-4b72-4a2e-ac63-b7d90244c1c3.png)
+
+
+di sini terlihat bahwa ternyata sequelize package-nya belum terinstall, bisa kita gunakan perintah
+
+```npm install sequelize```
+
+
+karena mungkin sequelize package nya tidak dalam satu bundled dalam tool CLI
+
+
+![image](https://user-images.githubusercontent.com/18206510/189152461-fe01619a-1b08-46c9-9103-5ea3824c73c9.png)
+
+
+lalu kita coba kembali migrasi databasenya
+
+
+![image](https://user-images.githubusercontent.com/18206510/189153563-0b175f50-a928-46ce-a8e6-0e743d126d61.png)
+
+
+setelah itu kita cek pada database kita
+
+
+![image](https://user-images.githubusercontent.com/18206510/189154220-c646e0b8-a478-4a9b-8d5f-3ba105629762.png)
+
+
+dan di sini kita berhasil melakukan migrasi
+
+
+
+
+
+
 
 
 
