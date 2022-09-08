@@ -264,6 +264,220 @@ lalu kita masuk ke /etc/nginx/ untuk membuat folder dimana kita akan melakukan r
 ![image](https://user-images.githubusercontent.com/18206510/189034807-25479054-d47b-4fe9-96bb-b4aabc04f19a.png)
 
 
+selanjutnya kita buat file untuk menyimpan reverse proxy kita dengan perintah 
+
+``` sudo nano proxy.conf```
+
+lalu di dalamnya kita isi sebagai berikut 
+
+
+![image](https://user-images.githubusercontent.com/18206510/189038783-2bb15bff-3b7a-46b4-9140-994d5c595393.png)
+
+setelah itu tekan ctrl + x lalu Y kemudian enter untuk menyimpannya
+
+
+kemudian kita masuk ke file nginx.conf untuk menambahkan konfigurasi proxy pass yang kita buat tadi pada bagian include
+
+
+![image](https://user-images.githubusercontent.com/18206510/189039316-7f2a33a1-d0de-4997-b205-8de954abbbdf.png)
+
+
+kemudian cek dengan perintah 
+
+```sudo nginx -t```
+
+kemudian reload nginx kita dengan perintah 
+
+
+```sudo systemctl reload nginx```
+
+![image](https://user-images.githubusercontent.com/18206510/189039480-e00fd5a7-23c8-4b22-b953-1bebc2fb1147.png)
+
+
+kemudian di server aplikasi yang pertama kita install pm2 agar aplikasinya bisa berjalan secara background
+
+
+masukan perintah 
+
+```npm installn pm2 -g```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189044133-c7ff2c6b-e0ce-4e63-8234-2563dbac87fe.png)
+
+
+
+lalu kita buat ekosistem pm2 nya dengan perintah 
+
+
+``` pm2 ecosystem simple ```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189041033-f5783d9f-ddcc-4ff3-90d9-304720df9872.png)
+
+
+lalu kita masuk ke file ecosystem.config.js
+
+![image](https://user-images.githubusercontent.com/18206510/189041992-ece59e73-0774-45b3-9bba-0ac9cadf12c6.png)
+
+
+di sini kita masukan nama app kita dan script npm start agar app kita secara automatis memulai npm 
+
+
+![image](https://user-images.githubusercontent.com/18206510/189042121-9f9ca859-de59-48b5-9c8c-9e56d63c0d11.png)
+
+
+lalu kita coba jalankan dengan perintah
+
+```pm2 start ecosystem.config.js```
+
+![image](https://user-images.githubusercontent.com/18206510/189042276-fc791d10-12f7-43a8-a893-18685a21a12f.png)
+
+
+lalu kita cek pada browser kita
+
+
+![image](https://user-images.githubusercontent.com/18206510/189045015-619d5098-e8d5-4fe6-bc37-4c739f77b357.png)
+
+
+kemudian kali ini kita akan membuat DNS atau Domain name server 
+
+apa itu DNS server? Singkatnya, DNS adalah sebuah sistem yang mengubah URL website ke dalam bentuk IP Address. Tanpa DNS, Anda harus mengetikkan IP Address secara lengkap ketika ingin mengunjungi sebuah website.
+
+
+pertama lakukan registrasi di website cloudflare : https://www.cloudflare.com/
+
+
+setelah itu klik di bagian student
+
+
+![image](https://user-images.githubusercontent.com/18206510/189045906-93620b0b-c8b0-4c6a-b9f8-42e7ba325e5e.png)
+
+
+lalu di sebelah kiiri masuk pada bilah DNS 
+
+
+![image](https://user-images.githubusercontent.com/18206510/189046035-8bad81e5-4475-4155-9504-c66d8f29bf88.png)
+
+
+pilih bagian add record lalu di sini kita isi dengan nama lalu ip dari server kedua tadi dan pada bagian proxy status kita isi dns only lalu pilih save
+
+
+![image](https://user-images.githubusercontent.com/18206510/189046935-2a9d0ebb-683a-477c-98e5-8db8d8dcf6dd.png)
+
+
+kemudian kembali lagi ke server nginx kita untuk melakukan konfigurasi proxy pada file /etc/nginx/dumbflix
+
+
+![image](https://user-images.githubusercontent.com/18206510/189048891-a472a2b4-b7bd-4bd4-bc8d-ec3d8a9f53f6.png)
+
+
+setelah itu simpan lalu kita cek dengan perintah 
+
+
+```sudo nginx -t```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189049050-766aa650-97b2-4bf4-aafe-f868179e3637.png)
+
+
+kemudian kita coba cek dengan browser kita
+
+
+![image](https://user-images.githubusercontent.com/18206510/189049334-90078ec5-a9ec-4a9b-ae3f-a3f1af14dff3.png)
+
+
+nah tapi di sini app kita masih bersifat http artinya keamanannya masih rendah untuk itu kita peerlu melakukan setup SSL
+
+# Apa itu SSL?
+
+SSL adalah singkatan dari Secure Socket Layer, salah satu komponen penting yang harus dimiliki website. Dengan SSL, transfer data di dalam website menjadi lebih aman dan terenkripsi. Bahkan saking pentingnya, Google Chrome melabeli website tanpa sertifikat SSL sebagai Not Secure.
+
+
+Apabila sistem keamanan ini ditambahkan pada website Anda, maka URL website akan berubah menjadi HTTPS. Tujuan utama pemasangan SSL adalah sebagai pengaman pertukaran data yang terjadi melalui jaringan internet.
+
+
+langkah pertama untuk melakukan itu kita masuk dulu ke akun cloudflare kita tadi lalu klik my profile dan pilih Api token
+
+
+![image](https://user-images.githubusercontent.com/18206510/189050842-c763f09c-f56c-447f-b8c5-8840dd71642a.png)
+
+
+klik pada bagian View global API key, dan masukan password cloudflare kita lalu copy token tersebut
+
+
+![image](https://user-images.githubusercontent.com/18206510/189051344-a70eb55f-b3b3-40b1-ac8a-69a8437608be.png)
+
+
+selanjutnya kembali ke server nginx kita tadi lalu buat direktori untuk konfigurasi cloudflarenya
+
+
+![image](https://user-images.githubusercontent.com/18206510/189051751-38dffd69-05ca-4d0f-8d6f-89e911fce8b2.png)
+
+
+di sini saya membuat file dengan nama .rahasia tujuan dari penggunaan titik tersebut adalah agar direktori tersebut di hidden
+
+
+
+lalu di dalamnya kita buat lagi satu file untuk meletakan api token kita di dalamnya
+
+![image](https://user-images.githubusercontent.com/18206510/189052742-6d66c7c7-8ba7-4d4b-a09d-317a3aa03546.png)
+
+jika sudah lalu kita simpan dan atur permissionnya agar hanya bisa di read saja dengan perintah 
+
+
+```chmod 400 nginx.coba```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189053103-78c8f287-1e33-4278-bb4f-d54326928317.png)
+
+
+
+selanjutnya kita lakukan instalasi certbot dengan perintah 
+
+```sudo snap install --classic certbot```
+
+![image](https://user-images.githubusercontent.com/18206510/189054229-394d529f-ec75-4c2e-9816-57ed339ac417.png)
+
+
+
+kemudian Masukan perintah berikut agar certbet bisa di akses menggunakan command
+
+
+```sudo ln -s /snap/bin/certbot /usr/bin/certbot```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189054843-33652b32-a14d-46a9-9e37-a5032ca4da08.png)
+
+
+lalu jalankan certbot dengan perintah 
+
+``` sudo certbot```
+
+![image](https://user-images.githubusercontent.com/18206510/189055622-6c9298b3-b585-4f87-828f-d2442b554ef9.png)
+
+pertama masukan email cloudflare
+
+kedua pilih Y untuk sertifikatnya 
+
+ketiga pilih saja N untuk mengabaikan email jika akan ada expired pada sertifikat kita
+
+keempat pilih domain yang akan dirubah dari http ke https
+
+lalu jika sudah maka akan muncul seperti ini
+
+![image](https://user-images.githubusercontent.com/18206510/189056076-4b5c1321-fd0a-47bd-86f5-dab11c9f0e42.png)
+
+
+sekarang kita coba kembali akses melalui browser kita
+
+![image](https://user-images.githubusercontent.com/18206510/189056246-ee827321-7b47-4e60-92e4-5aa552574d9b.png)
+
+nah di sini domain kita sudah berubah menjadi HTTPS 
+
+
+
+
+
 
 
 
