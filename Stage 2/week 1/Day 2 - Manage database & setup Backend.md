@@ -90,6 +90,189 @@ karena tadi kita sudah memasukkan password untuk mysql kita
 ![image](https://user-images.githubusercontent.com/18206510/189112199-4d34d8cb-8c2b-4356-bc31-9423ab7920e8.png)
 
 
+# membuat user dan database baru
+
+sekarang kita coba membuat user dan databe baru, untuk membuat user masukan perintah berikut :
+
+
+``` CREATE USER 'nama user bebas'@'%' IDENTIFIED BY 'password bebas';```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189121126-d5d889a6-0da8-4b76-82b9-1d249b94c66a.png)
+
+
+lalu kita berikan hak akses istimewa kepada user kita tadi dengan perintah 
+
+
+```GRANT ALL PRIVILEGES ON *.* TO 'user_database'@'localhost';```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189121904-119cab4d-af77-408a-9709-bc88b28bc274.png)
+
+
+lalu kita coba masuk dengan user yang baru saja kita buat dengan perintah 
+
+``` mysql -u (nama user tadi) -p ```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189122619-efa6327e-df3d-44f1-af87-678ec00aca09.png)
+
+
+
+kemudian untuk mengecek user kita bisa lakukan dengan perintah 
+
+
+```SELECT user, host FROM mysql.user;```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189123112-d9f8e808-ae90-4087-957e-1d6ac697c546.png)
+
+
+# kemudian sekarang kita akan membuat databasenya
+
+untuk membuat database masukan perintah
+
+
+```CREATE DATABASE (nama database);```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189123753-fa85177a-26f6-4e69-a2e9-7d01bbcc8e5b.png)
+
+
+kemudian untuk melihat database dapat mebnggunakan perintah 
+
+
+```SHOW databases;```
+
+
+untuk memakai database bisa gunakan perintah
+
+
+```USE (nama database);```
+
+
+untuk melihat tables pada database gunakan perintah 
+
+
+```SHOW tables;```
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/189124827-caf90732-5a49-4eed-90f4-d54efbfc9365.png)
+
+
+kemudian sekarang kita akan mencoba melakukan pergantian Bind address agar database dapat diakses oleh client 
+
+pertama masukkan perintah 
+
+```cd /etc/mysql/mysql.conf.d```
+
+lalu masuk ke file mysqld.cnf dengan perintah 
+
+
+```sudo nano mysqld.cnf```
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/189127137-233343a1-b3ec-4c9f-b7c2-42fd858f0a6e.png)
+
+
+pada bagian Bind address dan mysql-bind-address kita ganti menjadi ```0.0.0.0```
+
+
+jika sudah lalu simpan
+
+
+kemudian kita restart mysql kita agar semua perubahan dapat berjalan, masukan perintah
+
+
+```sudo systemctl restart mysql.service```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189127973-68c6e160-21ee-4735-a453-30f8d980bb5c.png)
+
+
+kemudian karena di sini kita akan mendeploy aplikasi backend maka kita siapkan dulu environtmentnya, di sini saya akan menaruh app backend di tempat yang 
+
+
+sama dengan frontend sebelumnya, pertama saya buat direktori dulu lalu masuk ke direktorinya dan melakukan cloning app backend
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/189130147-cd58c0f1-5f89-460c-b389-0aab9ea8167f.png)
+
+
+masukan perintah 
+
+
+```git clone https://github.com/dumbwaysdev/dumbflix-backend```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189131083-9d778364-a655-45bd-9068-3a387b92133b.png)
+
+
+kemudian kita install NVM (node version manager) dan NPM (node package manager) 
+
+
+jika belum menginstall NVM maka masukan perintah 
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+
+lalu masukkan 
+
+
+```nvm install 14(versi yg ingin kita gunakan)```
+
+
+di sini karena saya sudah menginstall nvm terlebih dahulu maka saya tinggal memasukkan perintah nvm install (versi)
+
+
+kemudian untuk melakukan installasi npm kita gunakan perintah
+
+```sudo apt install npm```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189133011-4ecf5dbe-4db1-4627-90a3-6ae63d418749.png)
+
+
+di sini karena saya juga sudah menginstall npm maka muncul keterangan seperti diatas
+
+
+kemudian untuk mengecek versi dari nvm dan npm bisa gunakan perintah
+
+```node -v``` untuk nvm 
+
+```npm -p``` untuk npm 
+
+
+![image](https://user-images.githubusercontent.com/18206510/189134518-5aa5e2ce-6ee6-4cf7-923e-4a3bcf70d177.png)
+
+
+# Remote database oleh client
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
