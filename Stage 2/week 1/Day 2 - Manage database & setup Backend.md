@@ -328,9 +328,43 @@ setelah itu kita cek pada database kita
 dan di sini kita berhasil melakukan migrasi
 
 
+# menjalankan aplikasi dengan pm2
+
+pertama install pm2 nya dengan perintah 
+
+
+```npm install pm2```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189158861-9b0a4ae1-53af-4234-9692-a6619dd840c4.png)
+
+
+lalu buat file ecosystem untuk menjalankan aplikasi nya dengan perintah 
+
+
+```pm2 ecosystem simple```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189159522-f13513ec-2ad6-447a-9862-997159cad308.png)
+
+
+lalu kita masuk ke file ecosystem.config.js lalu lakukan penyesuaian
+
+
+![image](https://user-images.githubusercontent.com/18206510/189159976-527829f5-6f89-4702-81a7-ae7cf026569c.png)
+
+
+sekarang kita coba jalankan dengan perintah 
+
+
+```pm2 start ecosystem.config.js```
+
+
+![image](https://user-images.githubusercontent.com/18206510/189160409-e6d97714-818a-45ad-8f81-bac6326beba4.png)
 
 
 
+# menghubungkan antara Frontend dan Backend
 
 
 
