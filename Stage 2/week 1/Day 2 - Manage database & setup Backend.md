@@ -505,7 +505,10 @@ lalu kita coba register
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/189284401-38719593-7fac-4468-8202-252cf2c6126a.png)
 
+
+and finally setelah banyak error
 
 
 
