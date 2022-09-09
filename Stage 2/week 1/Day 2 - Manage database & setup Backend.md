@@ -410,16 +410,37 @@ di sini terlihat sudah bisa masuk melalui ip
 
 
 
-tapi belum bisa melalui domain
+tapi belum bisa melalui domain, di sini kemudian saya mengganti ip pada cloudflare dengan ip nginx di mana sebelumnya saya memasukkan ip dari server FE dan 
+
+BE saya dan hasilnya 
+
+
+![image](https://user-images.githubusercontent.com/18206510/189262873-3c4b81e2-4e05-4aed-b03b-d13c6b6a8519.png)
+
+
+kemudian sekarang kita coba install certbot untuk memberikan sertifikat keamanan untuk app kita dengan perintah 
+
+```sudo certbot```
+
+![image](https://user-images.githubusercontent.com/18206510/189263399-ef79382a-ec64-4d2b-9afd-bb51420ccc86.png)
+
+
+lalu pada file ```dumbflix-frontend/src/config/api.js``` kita masukan domain backend kita
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/189263980-9c89f2a5-aa7e-4c86-91ee-08d02af31d09.png)
 
 
 
+sekarang kita coba jalankan aplikasi kita di browser
+
+
+![image](https://user-images.githubusercontent.com/18206510/189264637-0e287800-c16e-429e-bd97-8497637596ed.png)
 
 
 
+dan di sini ternyata masih error
 
 
 
