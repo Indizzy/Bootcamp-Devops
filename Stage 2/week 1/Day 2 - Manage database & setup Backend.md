@@ -443,10 +443,16 @@ sekarang kita coba jalankan aplikasi kita di browser
 dan di sini ternyata masih error
 
 
+![image](https://user-images.githubusercontent.com/18206510/189270287-466ee04e-344c-4125-a4e5-7035bd5b2fc3.png)
 
 
+kemudian saya mengcopy file .env.example dan membuat file .env lalu saya jalankan dan hasilnya
 
 
+![image](https://user-images.githubusercontent.com/18206510/189270760-ed7b2984-4e25-4e14-869f-19c5a3f0f18a.png)
+
+
+tapi masih error
 
 
 
