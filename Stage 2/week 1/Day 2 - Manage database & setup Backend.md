@@ -508,7 +508,7 @@ lalu kita coba register
 ![image](https://user-images.githubusercontent.com/18206510/189285068-f77c7618-3336-4b02-af26-d3403745402e.png)
 
 
-and finally setelah banyak error
+and Alhamdulillah setelah banyak error
 
 
 
