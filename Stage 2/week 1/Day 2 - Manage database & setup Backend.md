@@ -498,14 +498,14 @@ npm install pm2 -g
 kemudian saya coba lagi deploy aplikasinya 
 
 
-![image](https://user-images.githubusercontent.com/18206510/189283977-c93382f6-46c7-4f5b-8879-e685d17a1fa4.png)
+![image](https://user-images.githubusercontent.com/18206510/189285005-7c330af6-a8d0-4a69-939f-1f440695ceed.png)
 
 
 lalu kita coba register
 
 
 
-![image](https://user-images.githubusercontent.com/18206510/189284401-38719593-7fac-4468-8202-252cf2c6126a.png)
+![image](https://user-images.githubusercontent.com/18206510/189285068-f77c7618-3336-4b02-af26-d3403745402e.png)
 
 
 and finally setelah banyak error
