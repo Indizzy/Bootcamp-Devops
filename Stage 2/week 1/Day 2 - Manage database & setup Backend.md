@@ -452,7 +452,77 @@ kemudian saya mengcopy file .env.example dan membuat file .env lalu saya jalanka
 ![image](https://user-images.githubusercontent.com/18206510/189270760-ed7b2984-4e25-4e14-869f-19c5a3f0f18a.png)
 
 
-tapi masih error
+tapi masih error kemudian saya melakukan uninstall pada pm2 dan juga mengganti node js ke versi 10 dengan perintah 
+
+```
+nvm install 10 
+```
+
+command di atas untuk melakukan installasi nvm v.10
+
+```
+pm2 unstartup
+```
+
+command ini untuk melakukan disable terhadap pm2 lalu
+
+```
+pm2 kill
+```
+
+untuk menghentikan yang berjalan di background
+
+setelah itu baru saya masukan perintah
+
+```
+npm remove pm2 -g
+```
+
+untuk menghapus pm2 saya secara global 
+
+
+lalu perintah 
+
+```
+rm -rf ~/.pm2 
+```
+
+untuk menghapus semua logs dan konfigurasi pada pm2 
+
+kemudian saya install ulang lagi pm2 nya dengan perintah 
+
+```
+npm install pm2 -g
+```
+
+kemudian saya coba lagi deploy aplikasinya 
+
+
+![image](https://user-images.githubusercontent.com/18206510/189283977-c93382f6-46c7-4f5b-8879-e685d17a1fa4.png)
+
+
+lalu kita coba register
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
