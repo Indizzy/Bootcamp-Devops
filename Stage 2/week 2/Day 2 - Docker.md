@@ -6,6 +6,13 @@ pertama kita lakukan clone dulu terhadap aplikasi docker yg kita akan gunakan de
 git clone https://github.com/dumbwaysdev/wayshub-backend
 ```
 
+lalu kita install environment buat aplikasinya dengan perintah:
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+
+
 lalu kemudian kita buat file dengan nama Dockerfile untuk melakukan build image di aplikasi kita dengan perintah 
 
 ```
