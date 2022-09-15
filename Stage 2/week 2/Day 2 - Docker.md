@@ -197,37 +197,6 @@ lalu kita include ke nginx.conf
 ![image](https://user-images.githubusercontent.com/18206510/190461131-cbf16b8d-cd6a-44b4-9a43-c7d07b12ce72.png)
 
 
-
-lalu kita coba jalankan aplikasinya di browser 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # SETUP BACKEND 
 
 pertama kita lakukan clone dulu terhadap aplikasi docker yg kita akan gunakan dengan perintah 
@@ -268,6 +237,33 @@ lalu cek docker images untuk melihat apakah sudah berhasil
 
 
 ![image](https://user-images.githubusercontent.com/18206510/189699700-67616a2c-2bfa-4171-ac14-34c82370eef3.png)
+
+
+
+
+# Push Docker images ke DockerHub
+
+
+
+jika belum memiliki akun Docker maka silakan register dulu di 
+
+
+https://www.docker.com/
+
+
+lalu kemudian login akunnya ke dalam server yang akan kita push
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
