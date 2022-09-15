@@ -126,7 +126,8 @@ kemudian di bagian config.json kita isikan seperti berikut
 
 
 
-![image](https://user-images.githubusercontent.com/18206510/189695030-5ff9c749-8810-4ac4-93b3-a03ea5ba840d.png)
+![image](https://user-images.githubusercontent.com/18206510/190444930-fa99434c-2c10-4bfd-a0d7-0222a4eb3c6e.png)
+
 
 
 laluuu
@@ -139,6 +140,7 @@ laluuu
 
 
 terussss cek docker images untuk melihat apakah sudah berhasil
+
 
 
 ![image](https://user-images.githubusercontent.com/18206510/189699700-67616a2c-2bfa-4171-ac14-34c82370eef3.png)
