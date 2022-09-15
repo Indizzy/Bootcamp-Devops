@@ -66,8 +66,30 @@ membuat item
 
 
 manage tool
-
+- ssh agent
 ![image](https://user-images.githubusercontent.com/18206510/190340698-63a6730f-1246-439c-a70f-bd6c7860fa23.png)
+
+
+- slack notification
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190341117-5ca0db31-6d94-4a22-bea0-07ba899d05a9.png)
+
+
+
+buat credential
+
+
+![image](https://user-images.githubusercontent.com/18206510/190345432-0f362f67-f74c-4186-90cb-a86c000f1179.png)
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190345744-21bbf6d5-707a-44d8-93bc-beaba1d83641.png)
+
+
 
 
 
