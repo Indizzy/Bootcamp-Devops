@@ -39,33 +39,166 @@ kemudian jalankan dengan perintah bash indock (ganti dengan nama file anda)
 lalu tunggu hingga prosesnya selesai
 
 
+# setup frontend
+
+
+masuk ke server lalu clone aplikasinya dengan perintah :
+
+```
+git clone https://github.com/dumbwaysdev/housy-frontend.git
+```
+
+lalu lakukan setup pada file api.js
+
+
+![image](https://user-images.githubusercontent.com/18206510/190451147-d5598b33-95b8-4f3f-83eb-7aaa3b1fae8a.png)
+
+
+
+kemudian kita buat dockerfile dengan settingan seperti berikut
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190451646-95ec9a50-04a7-4bc3-b8b1-4140dd0e560c.png)
+
+
+
+# Docker Compose 
+
+- Mysql
+
+
+buat file docker compose dengan nama mysql.yaml lalu masukan settingan berikut
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190452134-f808dc49-14cc-4f10-aeeb-8fee9acb4850.png)
+
+
+
+kemudian jalankan dengan perintah 
+
+```
+docker compose -f mysql.yaml up -d
+```
+
+
+![image](https://user-images.githubusercontent.com/18206510/190452291-a0d12583-3318-40f7-825a-f30bbb3f0b62.png)
+
+
+- masuk ke mysql dengan perintah :
+
+```
+docker exec -it grup3-mysql-1 /bin/bash
+mysql -u housy -p
+```
+
+![image](https://user-images.githubusercontent.com/18206510/190455401-eaf3e679-6647-459b-9131-91dbc8580ce5.png)
 
 
 
 
+kemudian untuk melihat isi database kita bisa gunakan perintah 
+
+```
+show databases;
+```
+
+
+![image](https://user-images.githubusercontent.com/18206510/190456130-52e930d9-a48b-47a1-b0ed-5b643b80f6b6.png)
+
+
+
+# setup docker compose untuk FE dan BE
+
+
+buat file docker compose-nya 
+
+```nano docker-compose.yaml```
+
+
+lalu masukan seperti berikut :
+
+
+![image](https://user-images.githubusercontent.com/18206510/190456773-78224953-bfb3-40d7-a278-76699640c4ea.png)
+
+
+kemudian jalankan perintah 
+
+
+```docker compose up -d```
+
+
+![image](https://user-images.githubusercontent.com/18206510/190457300-86f75104-74bd-45ff-8886-32e8f3b6c1c8.png)
+
+
+
+kita bisa mengecek docker image dan container dengan perintah 
+
+
+```docker images```
+
+dan
+
+```docker ps -a```
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190457696-4f8357d0-1b71-4383-b8ee-e62e665e2eeb.png)
+
+
+
+# Membuat Reverse proxy
+
+
+masuk ke server getaway kita lalu install nginx
+
+```ssh user@ip-server```
+
+
+```
+sudo apt install nginx
+```
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190459198-85b4bb74-1be4-44d9-96fb-69b5fa7f39c8.png)
+
+
+
+kemudian buat direktori dan buat sebuah file untuk reverse proxy
+
+```
+  mkdir rp && cd rp
+  sudo nano reverse1.conf
+  ```
+
+
+![image](https://user-images.githubusercontent.com/18206510/190460211-9f5f6c26-7bb9-4f2f-b87f-1c8849b584d2.png)
+
+
+
+kemudian buat satu file lagi dengan untuk reverse proxy backend
+
+
+```sudo nano reverse2.conf```
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190460789-ad491372-9cbd-4bd2-8f18-c468a5855d7d.png)
 
 
 
 
+lalu kita include ke nginx.conf
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/190461131-cbf16b8d-cd6a-44b4-9a43-c7d07b12ce72.png)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+lalu kita coba jalankan aplikasinya di browser 
 
 
 
@@ -130,16 +263,7 @@ kemudian di bagian config.json kita isikan seperti berikut
 
 
 
-laluuu
-
-
-
-![image](https://user-images.githubusercontent.com/18206510/189697987-4063f72e-5cbb-49d8-ae2a-96da4b1444ac.png)
-
-
-
-
-terussss cek docker images untuk melihat apakah sudah berhasil
+lalu cek docker images untuk melihat apakah sudah berhasil
 
 
 
