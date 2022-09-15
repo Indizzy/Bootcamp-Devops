@@ -1,3 +1,100 @@
+# DOCKER
+
+Docker adalah layanan yang menyediakan kemampuan untuk mengemas dan menjalankan sebuah aplikasi dalam sebuah lingkungan terisolasi yang disebut dengan
+
+container. Dengan adanya isolasi dan keamanan yang memadai memungkinkan kamu untuk menjalankan banyak container di waktu yang bersamaan pada host tertentu.
+
+- installasi docker
+
+
+kita akan menginstall docker dengan menjalankan file yang sudah dimasukkan script installasi docker agar tidak ribet
+
+isi script ini ke dalam file dengan nama yg diinginkan
+
+```
+sudo apt-get update
+sudo apt-get install \
+ca-certificates \
+curl \
+gnupg \
+lsb-release
+    
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+echo \
+"deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+
+kemudian jalankan dengan perintah bash indock (ganti dengan nama file anda)
+
+
+![image](https://user-images.githubusercontent.com/18206510/190321884-aaa31677-39a9-444c-ae59-8e488c5c2b3b.png)
+
+
+lalu tunggu hingga prosesnya selesai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # SETUP BACKEND 
 
 pertama kita lakukan clone dulu terhadap aplikasi docker yg kita akan gunakan dengan perintah 
