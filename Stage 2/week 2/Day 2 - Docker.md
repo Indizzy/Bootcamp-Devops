@@ -122,7 +122,8 @@ lalu di dalamnya kita isikan seperti berikut:
 ![image](https://user-images.githubusercontent.com/18206510/190444161-c0584ae8-afa4-4a98-8f4d-10676492e69e.png)
 
 
-kem
+kemudian di bagian config.json kita isikan seperti berikut
+
 
 
 ![image](https://user-images.githubusercontent.com/18206510/189695030-5ff9c749-8810-4ac4-93b3-a03ea5ba840d.png)
