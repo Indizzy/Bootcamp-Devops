@@ -119,7 +119,7 @@ sudo nano Dockerfile
 lalu di dalamnya kita isikan seperti berikut: 
 
 
-![image](https://user-images.githubusercontent.com/18206510/189698253-f232b2a8-9ec8-48bb-91f7-da9ed7d88ca7.png)
+![image](https://user-images.githubusercontent.com/18206510/190444161-c0584ae8-afa4-4a98-8f4d-10676492e69e.png)
 
 
 kem
