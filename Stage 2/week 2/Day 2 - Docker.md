@@ -331,7 +331,11 @@ untuk melakukan perubahan pada tag image kita
 
 
 
-kemudian lakukan push
+kemudian lakukan push dengan perinta 
+
+
+
+```docker push (user)/(nama image)```
 
 
 
