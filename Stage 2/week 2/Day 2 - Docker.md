@@ -1,4 +1,17 @@
+
+
+![image](https://user-images.githubusercontent.com/18206510/190534684-4162ee1c-666c-4dd8-a270-6f29a5a7df16.png)
+
+
+
+
+
+
+
 # DOCKER
+
+
+
 
 Docker adalah layanan yang menyediakan kemampuan untuk mengemas dan menjalankan sebuah aplikasi dalam sebuah lingkungan terisolasi yang disebut dengan
 
