@@ -221,6 +221,7 @@ sudo nano Dockerfile
 lalu di dalamnya kita isikan seperti berikut: 
 
 
+
 ![image](https://user-images.githubusercontent.com/18206510/190444161-c0584ae8-afa4-4a98-8f4d-10676492e69e.png)
 
 
@@ -240,6 +241,49 @@ lalu cek docker images untuk melihat apakah sudah berhasil
 
 
 
+sekarang kita coba jalankan aplikasinya
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190531265-bc4fd7f0-74f8-45e9-b6ba-b7de518e74e1.png)
+
+
+
+
+lalu kita coba register 
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190531420-5fe6657b-a9fc-46d0-80ae-7cd49111f7e8.png)
+
+
+
+dan berhasil 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190531480-384fdb5c-7ad2-425b-b2fe-eab2f17ca4be.png)
+
+
+
+
+lalu kita coba logout kemudian sign in lagi
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190531657-aea0d014-beb7-4621-9d10-3fcad247d903.png)
+
+
+
+dan berhasil
+
+
+![image](https://user-images.githubusercontent.com/18206510/190531585-31bc38a3-5bb4-4dba-9da6-cb62fcf8a43d.png)
+
+
+
 
 # Push Docker images ke DockerHub
 
@@ -251,27 +295,47 @@ jika belum memiliki akun Docker maka silakan register dulu di
 https://www.docker.com/
 
 
-lalu kemudian login akunnya ke dalam server yang akan kita push
+lalu kemudian login akunnya ke dalam server yang akan kita push lalu masuk dengan perintah 
+
+
+```docker login```
+
+
+dan masukkan password dari docker kita
+
+
+kita ketikan ```docker images``` untuk melihat images yg akan kita push 
+
+
+lalu masukan 
+
+```
+docker tag <image> <user>/<image>
+```
+
+
+untuk melakukan perubahan pada tag image kita
+
+
+
+kemudian lakukan push
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/190534534-2868615f-0d67-4d64-bb27-df1b0f160e03.png)
+
+
+
+lalu kita cek docker kita
 
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/190534629-e248011d-abe3-4402-bc78-f0dc87220730.png)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+dan berhasil 
 
 
 
