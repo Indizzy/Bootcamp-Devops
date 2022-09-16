@@ -212,10 +212,11 @@ lalu kita include ke nginx.conf
 
 # SETUP BACKEND 
 
+
 pertama kita lakukan clone dulu terhadap aplikasi docker yg kita akan gunakan dengan perintah 
 
 ```
-git clone https://github.com/dumbwaysdev/wayshub-backend
+git clone https://github.com/dumbwaysdev/housy-backend
 ```
 
 lalu kita install environment buat aplikasinya dengan perintah:
@@ -253,8 +254,16 @@ lalu cek docker images untuk melihat apakah sudah berhasil
 ![image](https://user-images.githubusercontent.com/18206510/189699700-67616a2c-2bfa-4171-ac14-34c82370eef3.png)
 
 
+kita coba jalankan backend kita 
 
-sekarang kita coba jalankan aplikasinya
+
+
+![image](https://user-images.githubusercontent.com/18206510/190547391-426c7d72-b496-4840-b665-a540fde4663d.png)
+
+
+
+
+# sekarang kita coba jalankan aplikasi frontend nya
 
 
 
