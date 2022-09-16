@@ -1,23 +1,40 @@
 #  Apa itu jenkins?
 
 
-Jenkins merupakan sebuah automasi server berbasis open source yang ditulis menggunakan bahasa Java. Salah satu kegunaan Jenkins adalah untuk mengimplementasikan Continuous Integration dan Continous Delivery atau biasa yang disebut CI/CD proses. lebih jelasnya jenkins memudahkan kita untuk Proses seperti testing, building dan deployment yang dapat dijalankan secara otomatis.
+Jenkins merupakan sebuah automasi server berbasis open source yang ditulis menggunakan bahasa Java. Salah satu kegunaan Jenkins adalah untuk
+
+mengimplementasikan Continuous Integration dan Continous Delivery atau biasa yang disebut CI/CD proses. lebih jelasnya jenkins memudahkan kita untuk Proses
+
+seperti testing, building dan deployment yang dapat dijalankan secara otomatis.
 
 
-install jenkins
-
-
-![image](https://user-images.githubusercontent.com/18206510/190326499-72e45a9f-c1f4-408b-a159-1207458700e9.png)
+# installasi jenkins
 
 
 
-pake compose
+di sini kita akan melakukan installasi jenkins menggunakan docker compose masukan perintah 
+
+
+```nano docker-compose-.yaml```
+
+
+lalu masukan perintah  seperti berikut
+
+
+![image](https://user-images.githubusercontent.com/18206510/190536420-8a2ffdf6-dd6b-4ce5-ab20-e4ab4ca2944f.png)
+
+
+kemudian mulai installasinya 
 
 
 ![image](https://user-images.githubusercontent.com/18206510/190333178-01163884-c525-47cf-8dbf-aa5eeffee3c2.png)
 
 
-masuk jenkins
+tunggu hingga selesai
+
+
+
+setelah itu masuk ke jenkins menggunakan ip server dan port 8080
 
 
 ![image](https://user-images.githubusercontent.com/18206510/190333463-3d3af8a7-69eb-4d2b-bb65-ad6523f5550c.png)
