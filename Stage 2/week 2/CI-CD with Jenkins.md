@@ -37,16 +37,33 @@ tunggu hingga selesai
 setelah itu masuk ke jenkins menggunakan ip server dan port 8080
 
 
+
 ![image](https://user-images.githubusercontent.com/18206510/190333463-3d3af8a7-69eb-4d2b-bb65-ad6523f5550c.png)
 
 
-ambil passsword
+
+kembali lagi ke server kita lalu ambil authenticate passsword dengan cara 
+
+
+```watch docker ps -a```
+
+
+lalu ketikkan perintah 
+
+
+```docker logs```
+
 
 
 ![image](https://user-images.githubusercontent.com/18206510/190333682-c15e6fd6-5d67-41b1-99c7-7e6bf6559619.png)
 
 
-install pluginsss
+
+dan pastekan authenticate passwordnya ke kolom pada jenkins tadi
+
+
+
+lalu di sini kita akan install plugins yg dibutuhkan oleh jenkins kita
 
 
 
@@ -55,6 +72,7 @@ install pluginsss
 
 
 tunggu sampe selesai
+
 
 
 
