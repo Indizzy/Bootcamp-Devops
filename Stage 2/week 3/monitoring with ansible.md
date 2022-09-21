@@ -214,7 +214,12 @@ kemudian kita coba masuk dengan user baru kita
 
 
 
-- installasi docker
+- installasi docker buat file docker.yaml lalu masukan script berikut
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191559153-31374c5f-12b9-4ded-9dfb-1b542b7a607c.png)
+
 
 
 
