@@ -1,7 +1,7 @@
 # Task
 
 
- # Install monitoring tools using ansible on top of docker
+ # Install monitoring tools using Ansible on top of Docker
 
 - Installing ansible
 - Installing docker
