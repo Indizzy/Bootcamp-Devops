@@ -102,6 +102,123 @@ lalu kita tes dengan perintah
 
 
 
+- melakukan setup pada ansible
+
+
+pertama kita buat file dengan nama inventory lalu kita isikan file yang ingin kita monitor
+
+
+![image](https://user-images.githubusercontent.com/18206510/191508221-a74f4c97-9a10-4b95-a638-d683de09baa0.png)
+
+
+
+lalu kita buat lagi file dengan nama ansible.cfg lalu isikan seperti berikut
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191510152-6194c861-a3bd-4fd2-82e0-be96be57d3b6.png)
+
+
+
+kemudian simpan filenya lalu kita cek koneksi ke server tujuan kita dengan perintah 
+
+
+```ansible all -m ping```
+
+
+![image](https://user-images.githubusercontent.com/18206510/191510912-d314e4f7-2974-4051-8a70-86659a8f30f2.png)
+
+
+
+di sini terlihat sudah berhasil
+
+
+- Installasi Nginx 
+
+
+pertama buat file dengan nama nginx.yaml lalu masukan script berikut
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191518943-08715748-b452-4a6a-86a2-452e753d4791.png)
+
+
+
+lalu kita check syntax yang sudah kita buat dengan perintah 
+
+
+
+```ansible-playbook --syntax-check nginx.yaml```
+
+
+![image](https://user-images.githubusercontent.com/18206510/191519098-fd1936b3-a52e-4904-8e4f-90232beacc5e.png)
+
+
+
+kemudian kita coba install nginx-nya dengan perintah 
+
+
+```ansible-playbook nginx.yaml```
+
+
+![image](https://user-images.githubusercontent.com/18206510/191519896-8e7782e1-ecde-44ef-a1a2-83692783fa5f.png)
+
+
+
+lalu kita coba cek melalui browser kita :
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191520320-26c6bf13-3a55-4326-9195-85d75d648243.png)
+
+
+
+- membuat user dengan ansible
+
+
+pertama kita install whois untuk melakukan enkripsi pada password kita dengan perintah 
+
+
+```sudo apt install whois```
+
+
+![image](https://user-images.githubusercontent.com/18206510/191528822-ce71baaf-5c2a-4d3a-9169-4f268065ad6e.png)
+
+
+kemudian masukan perintah ```mkpasswd --method=sha-512``` lalu masukan password yang kita inginkan
+
+
+
+kemudian buat file .yaml untuk tempat usernya lalu pastekan password yg sudah terenkripsi tadi 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191540793-c03ef3b4-8be0-4a0d-97eb-d5cb0e2c871f.png)
+
+
+
+kemudian kita coba cek, jika berhasil baru kita jalankan 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191541143-41c29e72-76f8-49bf-88fe-34d28f706245.png)
+
+
+
+kemudian kita coba masuk dengan user baru kita
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191554222-d1082096-194e-45e3-a305-679b0ae26f63.png)
+
+
+
+
+- installasi docker
+
+
+
+
 
 
 
