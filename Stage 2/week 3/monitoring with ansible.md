@@ -311,6 +311,97 @@ di bagian prometheus.yaml kita isikan:
 
 
 
+- installasi prometheus dan grafana
+
+
+
+buat file dengan nama monitor.yaml lalu isikan script berikut:
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191634063-76cd9664-9b22-4c47-84db-3a0ac8214682.png)
+
+
+
+lalu kita cek, jika tidak ada error lalu jalankan
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191639042-c8b7b634-e421-44eb-838a-a713f11e399d.png)
+
+
+
+kemudian kita cek pada browser
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191639245-151ba26f-254d-4ed8-942c-27ecbf8d55c9.png)
+
+
+
+konfigurasi yang kita buat tadi
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191639672-923c610b-6790-4d86-a483-e9b7d7dddb36.png)
+
+
+runtime aplikasi
+
+
+![image](https://user-images.githubusercontent.com/18206510/191639775-049664d1-228f-4616-94ee-fffdfb84ec72.png)
+
+
+targets
+
+
+![image](https://user-images.githubusercontent.com/18206510/191639934-0c781e75-7bb2-494f-82a4-86e2d873de3d.png)
+
+
+
+sekarang kita coba masuk pada grafana
+
+
+
+di sini tinggal masuk dengan admin-admin
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191640731-ef7e72f2-68a7-4d65-91aa-ec2d569ed89b.png)
+
+
+
+kemudian masukan password baru
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191640824-6c4b0d1c-6249-471d-b4d2-3752da95920a.png)
+
+
+
+pada bilik kiri pilih konfiguration lalu data source kemudian add data source
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191641433-e9ce4bad-11a6-4214-852e-66390b05c1c9.png)
+
+
+
+pilih prometheus
+
+
+![image](https://user-images.githubusercontent.com/18206510/191641596-36f12a98-e406-46a6-8a6e-73a980d40c17.png)
+
+
+
+klik save & test 
+
+
+
+
+
+
+
 
 
 
