@@ -258,7 +258,7 @@ kemudian kita cek
 kita buat file dengan nama node-exporter.yaml lalu isi dengan setup berikut:
 
 
-![image](https://user-images.githubusercontent.com/18206510/191630018-da25ff1d-332c-48d6-85eb-f1cf4689554d.png)
+![image](https://user-images.githubusercontent.com/18206510/191650565-e2a4d8fd-fe04-4c96-b097-9adbe1a4f9a0.png)
 
 
 
@@ -306,7 +306,7 @@ di bagian prometheus.yaml kita isikan:
 
 
 
-![image](https://user-images.githubusercontent.com/18206510/191631631-c00319d4-5a2e-478d-9e88-eb47654a04a0.png)
+![image](https://user-images.githubusercontent.com/18206510/191650662-2586c59e-7bdf-48c7-8afc-e8178ffce9d7.png)
 
 
 
@@ -319,7 +319,7 @@ buat file dengan nama monitor.yaml lalu isikan script berikut:
 
 
 
-![image](https://user-images.githubusercontent.com/18206510/191634063-76cd9664-9b22-4c47-84db-3a0ac8214682.png)
+![image](https://user-images.githubusercontent.com/18206510/191650802-2ff91247-e5db-41c9-903d-9b099949cdae.png)
 
 
 
