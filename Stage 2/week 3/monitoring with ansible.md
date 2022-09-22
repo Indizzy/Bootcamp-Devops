@@ -214,7 +214,10 @@ kemudian kita coba masuk dengan user baru kita
 
 
 
-- installasi docker buat file docker.yaml lalu masukan script berikut
+- installasi docker 
+
+
+buat file docker.yaml lalu masukan script berikut
 
 
 
@@ -222,9 +225,88 @@ kemudian kita coba masuk dengan user baru kita
 
 
 
+kita cek apakah ada salah pada syntax-nya, lalu kita jalankan
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/191624723-9b94a7b6-4990-43a7-bd54-f7bbf505b209.png)
+
+
+
+lalu kita jalankan script tadi 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191625517-a3516780-d29b-49f1-8a9d-da181e25efed.png)
+
+
+
+kemudian kita cek 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191627787-acab953a-455c-4656-a8d4-27642f12adef.png)
+
+
+
+# Installasi node exporter, prometheus, grafana
+
+
+- installasi node exporter
+
+
+kita buat file dengan nama node-exporter.yaml lalu isi dengan setup berikut:
+
+
+![image](https://user-images.githubusercontent.com/18206510/191630018-da25ff1d-332c-48d6-85eb-f1cf4689554d.png)
+
+
+
+lalu kita check apakah ada error, jika sudah maka tinggal kita jalankan
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191630132-bef0b4b5-7f4b-4a74-a6b8-aaba42e66d14.png)
+
+
+
+lalu kita check di browser apakah sudah berjalan dengan memasukkan ip dan port 9100
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191630395-d1f6c244-2b86-45be-b4ff-44df1c36aaad.png)
+
+
+
+selanjutnya kita buat direktori dengan nama files untuk menyimpan konfigurasi monitoring server kita
+
+
+di sini saya akan membuat files dengan nama:
+
+-node_exporter.service
+-prometheus.yaml (untuk melakukan targeting terhadap server yang akan dimonitor)
+-prometheus.service
+
+
+di dalam node_exporter.service kita isikan:
+
+
+![image](https://user-images.githubusercontent.com/18206510/191631319-f4269c52-80b8-45fa-97b6-60e2738603bf.png)
+
+
+kemudian di dalam prometheus.service kita isikan:
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191631423-9d06be0d-263e-4420-9537-f1d5440099d1.png)
+
+
+
+di bagian prometheus.yaml kita isikan:
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/191631631-c00319d4-5a2e-478d-9e88-eb47654a04a0.png)
 
 
 
