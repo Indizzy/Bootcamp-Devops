@@ -1,0 +1,29 @@
+# Database
+
+
+
+- setup database with PostgreSQL
+
+
+pertama kita akan menginstall postgresSQL menggunakan ansible on top of docker
+
+
+
+di sini kita install dulu docker ke dalam server-server kita dengan menggunakan script
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
