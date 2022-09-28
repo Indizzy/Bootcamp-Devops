@@ -29,10 +29,35 @@
 
 
 
+- Cloning app
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/192673917-148483c3-af46-45cb-ac3e-cf74ec3232ee.png)
 
 
 
 
+- install nginx
+
+
+pertama buat file dengan isi seperti berikut
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/192677510-bc9fd7d5-30a2-434b-8ffd-3826d398ffc7.png)
+
+
+
+lalu kita check
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/192677569-1e63b99a-86b9-42fb-aa7e-159fb8581ee4.png)
+
+
+
+jalankan
 
 
 
