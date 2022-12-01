@@ -217,16 +217,58 @@ cek pada browser
 
 
 
-- Setup Backend dan database
+# Setup Backend dan database
+
+
+- Installasi mysql 
+
+
+
+``` sudo apt install mysql-server```
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205055552-d063b63f-95e9-4a20-b10e-ac56797b4a8d.png)
+
+
+
+setup agar bisa diakses dengan user root
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205057582-ade91322-8051-4110-bcd4-1a64c53ae817.png)
+
+
+
+lalu kita lakukan secure installation agar database kita terinstall secara aman 
+
+
+
+dengan command ```mysql_secure_installation```
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205058534-314bdbb1-7feb-4f39-bbec-c3c7c6edc8b2.png)
+
+
+
+dan sekarang kita sudah bisa mengaksesnya dengan user root
+
+
+![image](https://user-images.githubusercontent.com/18206510/205058773-505a9d55-a5bf-49e8-8807-f2cd5580e065.png)
+
+
+
+selanjutnya membuat user dan pass untuk database kita
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205060451-7736f28b-9951-4950-9c31-c2ca9efa15fb.png)
 
 
 
 
-
-
-
-
-
+disana perintah ``` GRANT ALL PRIVILEGES ON *.* TO 'awan'@'%'; ``` berguna untuk memberi akses pada user awan terhadap database kita
 
 
 
