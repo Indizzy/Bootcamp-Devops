@@ -1,4 +1,4 @@
-#Cloud Computing 
+# Cloud Computing 
 
 Cloud komputing atau komputasi awan simplenya adalah proses penyimpanan server kita di internet agar tidak membebani penyimpanan lokal
 
@@ -9,7 +9,8 @@ pertama masuk ke ``` IDcloudhost.com ``` lalu buat console acccount karena kita 
 
 
 
-![image](https://user-images.githubusercontent.com/18206510/204973140-6ccfe716-8177-4c11-a566-9374b7fe7179.png)
+![image](https://user-images.githubusercontent.com/18206510/204974031-e9bfc605-c0a8-4531-b58f-2f8dd5bbe475.png)
+
 
 
 pada menu compute pilih : 
@@ -23,3 +24,26 @@ sisanya diisi bebas terserah kita
 
 
 ![image](https://user-images.githubusercontent.com/18206510/204973731-39376ce0-3b1e-4710-9c0e-9d09dd1bf579.png)
+
+
+klik create lalu tunggu
+
+
+
+lalu kita buat satu server lagi sebagai gateaway server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
