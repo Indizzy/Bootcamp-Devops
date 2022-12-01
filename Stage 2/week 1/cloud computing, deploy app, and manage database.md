@@ -91,7 +91,144 @@ dan sudah bisa diakses tanpa password
 
 
 
-install node.js
+- install node.js
+
+
+![image](https://user-images.githubusercontent.com/18206510/205023405-746a66b6-252f-47a6-b0a4-54ab6c8c14a7.png)
+
+
+
+- cloning app
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205024552-8b16c559-d533-4bb7-9996-cb601f180118.png)
+
+
+
+# Setup frontend
+
+
+
+- install npm 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205025480-b874f2d5-4266-4987-84d6-0d164e9e415f.png)
+
+
+
+- install pm2 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205026309-ef0feee2-cc69-4086-aa43-92f3f16a563d.png)
+
+
+jalankan command ``` pm2 init simple ```  untuk membuat script ecosystem file 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205026845-750edc5a-ad38-4f96-9931-074474f1a972.png)
+
+
+
+edit script menjadi ```npm start```
+
+
+![image](https://user-images.githubusercontent.com/18206510/205027171-9cd8aa83-df38-4501-b6f4-33d4fc2fbeb8.png)
+
+
+
+coba jalankan script 
+
+
+pm2 start ecosystemfile.config.js
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205027403-b7f56cf6-ac17-4067-bbd8-451f41f527bc.png)
+
+
+
+coba jalankan di browser dengan port 3000
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205027987-6df5ead9-fcc2-4379-ad07-2eecf55034d1.png)
+
+
+
+- Buat DNS di cloudflare
+
+
+pada bilah kiri klik DNS kemudian add record 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205029566-82ee8ef7-af61-4c93-97fa-d84fff4822e1.png)
+
+
+lalu save
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205029885-a9d69afa-3526-4ad3-a146-61bdd10dc564.png)
+
+
+
+- install nginx pada server gateaway
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205030442-2b416656-acbc-43e3-bbd8-cb3e0fe2311d.png)
+
+
+
+buat reverse proxy file pada ```etc/nginx/sites-enabled```
+
+
+![image](https://user-images.githubusercontent.com/18206510/205034951-e821c9b6-1116-4b3e-96d1-31e7dfe62d2d.png)
+
+
+
+
+cek config ``` sudo nginx -t```
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205033298-cb249795-1546-4115-8866-0e90e0355194.png)
+
+
+
+reload nginx 
+
+
+![image](https://user-images.githubusercontent.com/18206510/205033563-e3d9e0cc-6658-4c73-9f7f-c3c12199dbca.png)
+
+
+
+cek pada browser
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205034824-0e1d7fb2-0447-4c4e-b935-d82215f79cb7.png)
+
+
+
+
+- Setup Backend dan database
+
+
+
+
+
+
+
+
+
+
+
 
 
 
