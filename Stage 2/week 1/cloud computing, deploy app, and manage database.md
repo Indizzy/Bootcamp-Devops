@@ -336,6 +336,50 @@ instal pm2 pada backend seperti pada frontend lalu ganti ```ecosystem file``` de
 
 
 
+coba jalankan di browser
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205084814-6240d50d-187a-4b76-a1e3-4b6d8088f57c.png)
+
+
+
+- buat dns untuk backend
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205085221-51d62bc8-7b68-4d90-b96e-6a4aa0f4e3d3.png)
+
+
+
+ - reverse proxy backend
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205087910-a753f247-d6bf-4ec7-bbea-6587d5cd7405.png)
+
+
+
+# hubungkan FE dan BE 
+
+
+
+edit base url pada file ```/src/config/api.js``` pada frontend sesuai domain backend kita
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205089159-b333d8ff-77a2-4900-8ef3-7a9417cd7c10.png)
+
+
+
+
+
+
+
+# install certbot
+
+
 
 
 
