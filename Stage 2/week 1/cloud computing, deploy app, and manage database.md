@@ -48,29 +48,50 @@ di sini masih pake password, kita set supaya tidak pakai password
 
 
 
-![image](https://user-images.githubusercontent.com/18206510/205013165-8f2a6e6e-decd-4594-9bb0-faedd14749e2.png)
+kita buatkan tempat di server yang ingin kita remote di sini saya namai secret
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205019867-f33a7312-4257-463c-b277-4d6228d66ff7.png)
+
+
+
+copy id_rsa.pub dari lokal ke server tujuan 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205020275-12c3c6d1-1ade-4335-9577-a6c884db3eb2.png)
+
+
+
+lalu copy isinya ke dalam authorized key pada direktori .ssh
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205020770-1dc7a798-2ad4-481a-a6eb-9c233187b2bd.png)
+
+
+paste dan simpan
+
+
+![image](https://user-images.githubusercontent.com/18206510/205021237-a77096db-323b-46a4-ac41-cac5857b9739.png)
+
+
+
+dan sudah bisa diakses tanpa password
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205021501-0f74a0e7-d04b-4d2a-aa49-cafd340bb479.png)
 
 
 
 
+# Deploy aplikasi menggunakan database MYSQL
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+install node.js
 
 
 
