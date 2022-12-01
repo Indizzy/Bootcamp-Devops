@@ -309,12 +309,20 @@ masuk ke ``` dumbflix-backend``` lalu ganti ```config.json``` sesuai dengan data
 
 
 
+lalu masukkan perintah ```npx sequelize-cli db:create```
+
+
+
+kemudian ```npx sequelize-cli db:migrate```
 
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/205079242-14f0a93b-d95f-4705-890c-225114451ea6.png)
 
 
+
+- setup backend
 
 
 
