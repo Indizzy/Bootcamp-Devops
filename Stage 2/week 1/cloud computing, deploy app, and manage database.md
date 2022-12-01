@@ -301,6 +301,40 @@ masuk ke ``` dumbflix-backend``` lalu ganti ```config.json``` sesuai dengan data
 
 
 
+- install sequelize untuk setup database
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205067921-bc81ea1c-26f1-439b-92b0-2bc00ff4a47f.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+instal pm2 pada backend seperti pada frontend lalu ganti ```ecosystem file``` dengan npm start seperti pada frontend kemudian jalankan
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205066396-5a39e4a0-781d-493c-bfb1-5c53c45c5eef.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
