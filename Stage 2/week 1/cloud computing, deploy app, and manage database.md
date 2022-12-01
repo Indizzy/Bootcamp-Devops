@@ -375,9 +375,78 @@ edit base url pada file ```/src/config/api.js``` pada frontend sesuai domain bac
 
 
 
+kita coba register 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205130876-06e72e3c-9bca-4310-94ee-ae409aea1932.png)
+
+
+
+dan berhasil
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205130977-51b81d62-5cf4-47fa-86ff-68f8a63fc256.png)
+
+
+
+tapi di sini domain kita belum aman jadi kita perlu sertifikat pengaman
+
+
 
 
 # install certbot
+
+
+
+- memeriksa ada atau tidak snap dengan perintah 
+
+
+
+``` sudo snap install core; sudo snap refresh core ```
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205131684-ed049a0f-ca35-417e-a1a8-142f270095dc.png)
+
+
+
+lalu masukkan perintah ``` sudo snap install --classic certbot ```
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205132100-d133804d-52f4-4c97-b19e-1123584fc22e.png)
+
+
+
+buat mastiin certbot bisa jalan atau ngga pake perintah ``` sudo ln -s /snap/bin/certbot /usr/bin/certbot ```
+
+
+kemudian masukan perintah ``` sudo snap set certbot trust-plugin-with-root=ok ``` untuk memastikan bahwa plugin yang akan diinstall sama dengan classic 
+
+certbot
+
+
+kemudian perintah ``` sudo snap install certbot-dns-(dns provider) ```
+
+
+untuk menginstall plugin yg sesuai dengan provider dns kita
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205133164-5c135286-bf8a-4793-bcfc-8f868f96f2bf.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
