@@ -271,6 +271,34 @@ selanjutnya membuat user dan pass untuk database kita
 disana perintah ``` GRANT ALL PRIVILEGES ON *.* TO 'awan'@'%'; ``` berguna untuk memberi akses pada user awan terhadap database kita
 
 
+coba masuk 
+
+
+![image](https://user-images.githubusercontent.com/18206510/205061152-e2992a85-730f-4ebe-9974-1881eac2e4ba.png)
+
+
+
+buat database
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205061770-cf349e5d-a62a-4f25-a206-a9ced753657e.png)
+
+
+
+
+
+- lakukan migrasi database 
+
+
+
+masuk ke ``` dumbflix-backend``` lalu ganti ```config.json``` sesuai dengan database yang kita buat
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205062998-88b9ca87-1e7e-489b-b75b-8686877c4952.png)
+
 
 
 
