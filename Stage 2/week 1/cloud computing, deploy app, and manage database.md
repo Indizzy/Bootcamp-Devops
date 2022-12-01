@@ -34,6 +34,38 @@ lalu kita buat satu server lagi sebagai gateaway server
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/205004712-c39a281b-a96c-48a0-bdf8-2bfd6117f6f9.png)
+
+
+
+# Koneksi ke server IDCH dengan menggunakan SSH 
+
+
+![image](https://user-images.githubusercontent.com/18206510/205010218-89083b0d-4926-441f-84c8-9719df6c4462.png)
+
+
+di sini masih pake password, kita set supaya tidak pakai password
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205013165-8f2a6e6e-decd-4594-9bb0-faedd14749e2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
