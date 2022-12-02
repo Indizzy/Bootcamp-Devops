@@ -442,21 +442,24 @@ untuk menginstall plugin yg sesuai dengan provider dns kita
 
 
 
+ikuti semua langkahnya
 
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/205194013-78e6f87e-81bc-4ac4-9b13-a604cec24e74.png)
 
 
 
+lalu kita coba jalankan aplikasi kita
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/205194351-8d67562e-def6-459c-b703-19847d3c41ce.png)
 
 
 
-
-
+bisa dilihat di sini domain kita sudah jadi https
 
 
 
