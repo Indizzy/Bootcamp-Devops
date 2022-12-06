@@ -45,3 +45,35 @@ buat Dockerfile untuk intsall node
 
 
 
+# installasi nginx
+
+
+- masuk ke server gateaway
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205839170-906d5afb-571b-41d7-987c-4cf7c5bd0f6b.png)
+
+
+
+
+- Buat file untuk reverse proxy
+
+
+Frontend
+
+![image](https://user-images.githubusercontent.com/18206510/205840563-1b4b392b-5a42-4afb-9935-49255c5bc26b.png)
+
+
+Backend
+
+![image](https://user-images.githubusercontent.com/18206510/205840714-40626304-1ba2-4955-a5ac-b6f79186d66a.png)
+
+
+include direktori tadi dalam nginx.conf
+
+
+
+
+
+
