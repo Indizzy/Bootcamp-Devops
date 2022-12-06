@@ -14,10 +14,34 @@ Docker adalah aplikasi untuk menyatukan berbagai file software dan pendukungnya 
 
 
 
+# setup frontend 
 
-# installasi Docker
+
+- cloning app
 
 
-buat file untuk menampung script 
+![image](https://user-images.githubusercontent.com/18206510/205825447-197cc834-32b9-4c7e-8351-86f0b3b6bd5a.png)
+
+
+
+masuk ke frontend edit file api.js arahkan ke backend
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205826330-d0484313-4064-409f-80e4-fd819e1535ed.png)
+
+
+
+buat Dockerfile untuk intsall node
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/205835155-5e27a4ff-0fe8-4f08-9cd2-785b5bee825e.png)
+
+
+
+
+
 
 
