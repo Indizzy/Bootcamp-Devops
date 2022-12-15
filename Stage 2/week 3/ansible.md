@@ -200,7 +200,7 @@ jalankan
 
 
 
-![image](https://user-images.githubusercontent.com/18206510/207840898-0347afc0-99d6-45b6-8c97-e4c86476f42f.png)
+![image](https://user-images.githubusercontent.com/18206510/207867259-a0aa084e-cf74-49be-a7b2-bc8d0057e64b.png)
 
 
 
@@ -232,19 +232,47 @@ akses melalui domain yang telah kita buat
 
 
 
+- Monitoring CPU, RAM untuk app dan network untuk gateaway
 
 
 
 
+aapserver
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/207919170-e35d8db2-454e-49e7-b124-f3194e0dda96.png)
 
 
 
+gateaway
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/207919321-9d657c58-1e4c-4fd1-bce7-1c34aee22eb8.png)
+
+
+
+- deploy app using ansible 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207921630-ee1561e1-8e05-4803-9efe-4dcec732af89.png)
+
+
+masih kosong pada server app
+
+
+
+pertama buat dockerfile
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207921802-b7142692-7e34-489d-8e94-6127bfb36973.png)
+
+
+
+buat playbook untuk deploy
 
 
 
