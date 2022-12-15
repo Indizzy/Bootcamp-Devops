@@ -124,6 +124,63 @@ cek
 - Installasi node exporter (semua server), prometheus, grafana (pada server monitoring)
 
 
+buat node exporter service 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207791752-1e576e8b-a43c-4c74-bce1-3071e76dc190.png)
+
+
+
+buat file ansible nya
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207791650-c4bea173-c160-4293-8323-426ef46b86b7.png)
+
+
+
+
+jalankan
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207791584-a5e316ec-4f40-49db-befe-53bbfea2321e.png)
+
+
+
+cek
+
+
+![image](https://user-images.githubusercontent.com/18206510/207791915-738c1b82-4187-40de-9d5c-0e969aa38d17.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207792046-d2ab0abd-49b3-4285-912c-8bc6ee8bdd0a.png)
+
+
+
+
+
+- install nginx
+
+
+
+buat file nginx.yaml
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207795563-6b6be395-146b-4421-a646-6b7ca0750184.png)
+
+
+
+jalankan
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207795501-f7e18704-3afb-497f-8249-c8a01ed480be.png)
 
 
 
