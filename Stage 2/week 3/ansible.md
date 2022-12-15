@@ -185,6 +185,57 @@ jalankan
 
 
 
+- reverse proxy
+
+
+kirim file ke gateaway
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207840791-d4b8cc62-f4e1-4d2c-8f75-42efb76a15af.png)
+
+
+
+jalankan
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207840898-0347afc0-99d6-45b6-8c97-e4c86476f42f.png)
+
+
+
+include ke /etc/nginx/nginx.conf
+
+
+![image](https://user-images.githubusercontent.com/18206510/207846073-f6e2dce2-6be5-4b4b-abee-d068a8295a0d.png)
+
+
+
+akses melalui domain yang telah kita buat
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207846892-ea5406c4-0b72-47a2-b0f0-a969ddb6363c.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207846989-ef82a228-b566-46e7-938e-6766d2a97c59.png)
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/207847072-423f4d21-3274-40fe-8cb1-b02fd1ab719c.png)
+
+
+
+
+
+
+
+
+
 
 
 
