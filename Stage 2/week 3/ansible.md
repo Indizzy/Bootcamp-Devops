@@ -253,6 +253,21 @@ gateaway
 
 
 
+
+
+- install certificate
+
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/208010678-7875e41c-b0ed-42b8-b149-270237bf73f3.png)
+
+
+
+
+
+
+
 - deploy app using ansible 
 
 
