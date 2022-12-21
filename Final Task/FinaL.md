@@ -234,12 +234,38 @@ cek branches dengan git branch -a
 # Deployment
 
 
+- install docker 
+
+
+buat configurasi untuk installasi docker
 
 
 
+![image](https://user-images.githubusercontent.com/18206510/208956696-70636e01-f79e-413a-9ae1-fd6270add0fe.png)
 
 
 
+jalankan 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/208956836-2c10f540-db7c-47c3-b3c3-8d9241957e40.png)
+
+
+
+cek 
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/208957845-ef984365-ee3e-4064-a99a-be136aebca5d.png)
+
+
+
+login docker
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/208958657-49f6de7d-cde3-4cf6-8c93-ae09d1ea5955.png)
 
 
 
