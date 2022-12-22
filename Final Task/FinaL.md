@@ -20,7 +20,7 @@
 
 
 
-![image](https://user-images.githubusercontent.com/18206510/208793790-da7ae01e-f5d7-4d53-a398-70bd0b56cd62.png)
+![image](https://user-images.githubusercontent.com/18206510/209027696-661b4700-8abd-461b-9b91-c4578c323675.png)
 
 
 
@@ -54,7 +54,7 @@ buat file untuk configurasi agar bisa masuk menggunakan alias
 
 
 
-![image](https://user-images.githubusercontent.com/18206510/208815902-ca5fa728-ea94-4fae-938d-d9a63c583f25.png)
+![image](https://user-images.githubusercontent.com/18206510/209027808-f40170c8-8407-4b31-ba24-ab1494d7e8a7.png)
 
 
 
@@ -105,7 +105,12 @@ gate server
 
 
 
-coba masuk dengan user
+coba masuk dengan nama host
+
+
+
+![image](https://user-images.githubusercontent.com/18206510/209028006-05e35e5d-0919-45c8-8aab-51a4b221a117.png)
+
 
 
 
@@ -269,8 +274,42 @@ login docker
 
 
 
+jika belum memiliki akun bisa buat di https://hub.docker.com 
 
 
+
+
+![image](https://user-images.githubusercontent.com/18206510/209029179-6a220611-b83b-4fa9-943b-7ada34438291.png)
+
+
+
+- Deploy frontend
+
+
+install node.js
+
+```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash```
+       
+       
+       
+exec bash
+       
+       
+       
+nvm install 10
+
+
+![image](https://user-images.githubusercontent.com/18206510/209031768-ca7f3aea-1601-4ca3-9157-7f97b5d622fd.png)
+
+
+``` npm install ```
+
+
+![image](https://user-images.githubusercontent.com/18206510/209031984-b59947ff-0b5f-455d-92c9-2c0cc2bfb4e2.png)
+
+
+
+- buat dockerfile
 
 
 
